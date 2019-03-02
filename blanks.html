@@ -3,7 +3,6 @@
   <head>
     <title>Blank Characters</title>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -64,7 +63,7 @@ function registerScroll() {
 document.addEventListener('DOMContentLoaded', registerScroll)
     </script>
 
-    <script src="https://unpkg.com/clipboard@2.0.0/dist/clipboard.min.js"></script>
+    <script src="/javascripts/clipboard.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function(){
         new ClipboardJS('.c, .e, .f, .n', {
@@ -90,8 +89,16 @@ document.addEventListener('DOMContentLoaded', registerScroll)
   <body>
     <div class="world">
 
+
       <section class="post-header">
-        <h1 class="post-heading" id="top"><a class="cc" href="/">[ character.construction ]</a> Blank Characters</h1>
+        <a class="cc" href="/">[ character.construction ]</a>
+        <ul class="links">
+          <li><a href="/"><span>All Emoji</span></a></li>
+          <li><a href="/emoji-categories.html"><span>Emoji Categories</span></a></li>
+          <li><a href="/emoji-vs-text.html"><span>Emoji vs. Text</span></a></li>
+          <li><a href="/blanks.html"><span>Blank Characters</span></a></li>
+        </ul>
+        <h1 class="post-heading" id="top"> Blank Characters</h1>
       </section>
 
      	<article class="post"><div class="intro">
@@ -238,5 +245,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
           —&nbsp;<a href="https://www.unicode.org/standard/WhatIsUnicode.html">unicode.org</a>
       </footer>
     </div>
+
+    <a href="https://github.com/janlelis/character.construction"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
   </body>
 </html>

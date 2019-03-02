@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <title><%= current_page.data.title || "character.construction" %></title>
-    <%= stylesheet_link_tag "all" %>
+    <title>character.construction</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
 
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -87,11 +87,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
   </head>
 
   <body>
-    <%# last_content_update = Date.parse(`git log -1 --format=%cd`).strftime("%B %d, %Y") rescue nil %>
     <div class="world">
-      <% content = yield %>
-      <% heading = content[%r_<h1.*?>(.*?)</h1>_, 1] %>
-      <% post = content.sub(%r_<h1(.*?)</h1>_, '') %>
 
 
       <section class="post-header">
@@ -102,24 +98,20 @@ document.addEventListener('DOMContentLoaded', registerScroll)
           <li><a href="/emoji-vs-text.html"><span>Emoji vs. Text</span></a></li>
           <li><a href="/blanks.html"><span>Blank Characters</span></a></li>
         </ul>
-        <h1 class="post-heading" id="top"><%= heading ? " #{heading}" : "" %></h1>
+        <h1 class="post-heading" id="top"></h1>
       </section>
 
-     	<article class="post"><%= post %></article>
+     	<article class="post"><div class="site-intro">
+  Welcome! Unicode is an important ground layer of modern communication.<br />
+  Reason enough to collect notable characters, codepoints, and resources.
+</div>
 
-      <footer class="<%= heading ? 'not-index' : 'index' %>">
+</article>
+
+      <footer class="index">
         <a href="/" class="action">character.construction</a> is curated by <a href="https://twitter.com/JanLelis">@JanLelis</a><br/>
         Unicode 11.0 / Emoji 12.0<br/>
         <a href="https://janlelis.com/data-protection">Privacy Policy</a>
-        <% if heading %>
-          <br />
-          <br />
-          <em class="quote">Unicode provides a unique number for every character,
-          no matter what the platform,
-          no matter what the program,
-          no matter what the language.</em>
-          —&nbsp;<a href="https://www.unicode.org/standard/WhatIsUnicode.html">unicode.org</a>
-        <% end %>
       </footer>
     </div>
 
