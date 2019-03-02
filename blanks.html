@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Blank Characters</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Unicode BOM"/>
+    <meta name="keywords" content="unicode, codepoints, data"/>
+
+    <script>
+function registerShake() {
+  document.querySelectorAll('.u,.n,.f,.c, .b').forEach(function(e){
+    var shakeInProgressTimeout = null
+    e.addEventListener('click', function(){
+      if(shakeInProgressTimeout){
+        clearTimeout(shakeInProgressTimeout)
+        shakeInProgressTimeout = null
+        e.classList.remove('shake')
+      } else {
+        e.classList.add('shake')
+        shakeInProgressTimeout = setTimeout(function(){
+          e.classList.remove('shake')
+          shakeInProgressTimeout = null
+        }, 1400)
+      }
+    })
+  })
+}
+
+document.addEventListener('DOMContentLoaded', registerShake)
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+    })
+  })
+})
+
+function scrollTo(href, cb) {
+  if(window) {
+    if(document.body.scrollIntoView) {
+      document.querySelector(href).scrollIntoView({
+        behavior: 'smooth'
+      })
+      if(cb){ setTimeout(cb, 200) }
+    } else {
+      window.location.href = href
+      if(cb){ cb() }
+    }
+  }
+}
+
+function registerScroll() {
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener("click", function(event) {
+      event.preventDefault()
+      scrollTo(a.hash)
+    })
+  })
+}
+document.addEventListener('DOMContentLoaded', registerScroll)
+    </script>
+
+    <script src="https://unpkg.com/clipboard@2.0.0/dist/clipboard.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        new ClipboardJS('.c, .e, .f, .n', {
+          text: function(trigger) {
+            return trigger.textContent
+          }
+        }).on("success", function(e) {
+          // console.log("copy: " + e.text)
+        })
+
+        new ClipboardJS('.b', {
+          text: function(trigger) {
+            return trigger.children[0].textContent
+          }
+        }).on("success", function(e) {
+          // console.log("copy: " + e.text)
+        })
+      })
+
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+
+      <section class="post-header">
+        <h1 class="post-heading" id="top"><a class="cc" href="/">[ character.construction ]</a> Blank Characters</h1>
+      </section>
+
+     	<article class="post"><div class="intro">
+  There are a bunch of white-space character in Unicode. Sometimes, such blank codepoints have a totally different meaning, but as a side-effect, they also do not contain any glyph.
+
+  The following list collects characters which might render no glyph. The exact behavior depends on the platform/operating system.
+
+  Please also note, some codepoints in Unicode are marked as <a href="https://idiosyncratic-ruby.com/66-ruby-has-character.html#ignorable-codepoints">ignorable</a> and often do not render <em>anything</em>, not even a space.
+</div>
+
+
+
+<table><tr><th>Name</th><th>Character</th><th>Codepoint</th></tr><tr><td>CHARACTER TABULATION</td><td><span class="b">]<span>	</span>[</span></td><td>   U+0009</td></tr>
+
+<tr><td>SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+0020</td></tr>
+
+<tr><td>SOFT HYPHEN</td><td><span class="b">]<span>­</span>[</span></td><td>   U+00AD</td></tr>
+
+<tr><td>COMBINING GRAPHEME JOINER</td><td><span class="b">]<span>͏</span>[</span></td><td>   U+034F</td></tr>
+
+<tr><td>ARABIC LETTER MARK</td><td><span class="b">]<span>؜</span>[</span></td><td>   U+061C</td></tr>
+
+<tr><td>SYRIAC ABBREVIATION MARK</td><td><span class="b">]<span>܏</span>[</span></td><td>   U+070F</td></tr>
+
+<tr><td>HANGUL CHOSEONG FILLER</td><td><span class="b">]<span>ᅟ</span>[</span></td><td>   U+115F</td></tr>
+
+<tr><td>HANGUL JUNGSEONG FILLER</td><td><span class="b">]<span>ᅠ</span>[</span></td><td>   U+1160</td></tr>
+
+<tr><td>OGHAM SPACE MARK</td><td><span class="b">]<span> </span>[</span></td><td>   U+1680</td></tr>
+
+<tr><td>KHMER VOWEL INHERENT AQ</td><td><span class="b">]<span>឴</span>[</span></td><td>   U+17B4</td></tr>
+
+<tr><td>KHMER VOWEL INHERENT AA</td><td><span class="b">]<span>឵</span>[</span></td><td>   U+17B5</td></tr>
+
+<tr><td>MONGOLIAN VOWEL SEPARATOR</td><td><span class="b">]<span>᠎</span>[</span></td><td>   U+180E</td></tr>
+
+<tr><td>EN QUAD</td><td><span class="b">]<span> </span>[</span></td><td>   U+2000</td></tr>
+
+<tr><td>EM QUAD</td><td><span class="b">]<span> </span>[</span></td><td>   U+2001</td></tr>
+
+<tr><td>EN SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2002</td></tr>
+
+<tr><td>EM SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2003</td></tr>
+
+<tr><td>THREE-PER-EM SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2004</td></tr>
+
+<tr><td>FOUR-PER-EM SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2005</td></tr>
+
+<tr><td>SIX-PER-EM SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2006</td></tr>
+
+<tr><td>FIGURE SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2007</td></tr>
+
+<tr><td>PUNCTUATION SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2008</td></tr>
+
+<tr><td>THIN SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+2009</td></tr>
+
+<tr><td>HAIR SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+200A</td></tr>
+
+<tr><td>ZERO WIDTH SPACE</td><td><span class="b">]<span>​</span>[</span></td><td>   U+200B</td></tr>
+
+<tr><td>ZERO WIDTH NON-JOINER</td><td><span class="b">]<span>‌</span>[</span></td><td>   U+200C</td></tr>
+
+<tr><td>ZERO WIDTH JOINER</td><td><span class="b">]<span>‍</span>[</span></td><td>   U+200D</td></tr>
+
+<tr><td>LEFT-TO-RIGHT MARK</td><td><span class="b">]<span>‎</span>[</span></td><td>   U+200E</td></tr>
+
+<tr><td>RIGHT-TO-LEFT MARK</td><td><span class="b">]<span>‏</span>[</span></td><td>   U+200F</td></tr>
+
+<tr><td>NARROW NO-BREAK SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+202F</td></tr>
+
+<tr><td>MEDIUM MATHEMATICAL SPACE</td><td><span class="b">]<span> </span>[</span></td><td>   U+205F</td></tr>
+
+<tr><td>WORD JOINER</td><td><span class="b">]<span>⁠</span>[</span></td><td>   U+2060</td></tr>
+
+<tr><td>FUNCTION APPLICATION</td><td><span class="b">]<span>⁡</span>[</span></td><td>   U+2061</td></tr>
+
+<tr><td>INVISIBLE TIMES</td><td><span class="b">]<span>⁢</span>[</span></td><td>   U+2062</td></tr>
+
+<tr><td>INVISIBLE SEPARATOR</td><td><span class="b">]<span>⁣</span>[</span></td><td>   U+2063</td></tr>
+
+<tr><td>INVISIBLE PLUS</td><td><span class="b">]<span>⁤</span>[</span></td><td>   U+2064</td></tr>
+
+<tr><td>INHIBIT SYMMETRIC SWAPPING</td><td><span class="b">]<span>⁪</span>[</span></td><td>   U+206A</td></tr>
+
+<tr><td>ACTIVATE SYMMETRIC SWAPPING</td><td><span class="b">]<span>⁫</span>[</span></td><td>   U+206B</td></tr>
+
+<tr><td>INHIBIT ARABIC FORM SHAPING</td><td><span class="b">]<span>⁬</span>[</span></td><td>   U+206C</td></tr>
+
+<tr><td>ACTIVATE ARABIC FORM SHAPING</td><td><span class="b">]<span>⁭</span>[</span></td><td>   U+206D</td></tr>
+
+<tr><td>NATIONAL DIGIT SHAPES</td><td><span class="b">]<span>⁮</span>[</span></td><td>   U+206E</td></tr>
+
+<tr><td>NOMINAL DIGIT SHAPES</td><td><span class="b">]<span>⁯</span>[</span></td><td>   U+206F</td></tr>
+
+<tr><td>IDEOGRAPHIC SPACE</td><td><span class="b">]<span>　</span>[</span></td><td>   U+3000</td></tr>
+
+<tr><td>BRAILLE PATTERN BLANK</td><td><span class="b">]<span>⠀</span>[</span></td><td>   U+2800</td></tr>
+
+<tr><td>HANGUL FILLER</td><td><span class="b">]<span>ㅤ</span>[</span></td><td>   U+3164</td></tr>
+
+<tr><td>ZERO WIDTH NO-BREAK SPACE</td><td><span class="b">]<span>﻿</span>[</span></td><td>   U+FEFF</td></tr>
+
+<tr><td>HALFWIDTH HANGUL FILLER</td><td><span class="b">]<span>ﾠ</span>[</span></td><td>   U+FFA0</td></tr>
+
+<tr><td>KAITHI VOWEL SIGN I</td><td><span class="b">]<span>𑂱</span>[</span></td><td>  U+110B1</td></tr>
+
+<tr><td>SHORTHAND FORMAT LETTER OVERLAP</td><td><span class="b">]<span>𛲠</span>[</span></td><td>  U+1BCA0</td></tr>
+
+<tr><td>SHORTHAND FORMAT CONTINUING OVERLAP</td><td><span class="b">]<span>𛲡</span>[</span></td><td>  U+1BCA1</td></tr>
+
+<tr><td>SHORTHAND FORMAT DOWN STEP</td><td><span class="b">]<span>𛲢</span>[</span></td><td>  U+1BCA2</td></tr>
+
+<tr><td>SHORTHAND FORMAT UP STEP</td><td><span class="b">]<span>𛲣</span>[</span></td><td>  U+1BCA3</td></tr>
+
+<tr><td>MUSICAL SYMBOL NULL NOTEHEAD</td><td><span class="b">]<span>𝅙</span>[</span></td><td>  U+1D159</td></tr>
+
+<tr><td>MUSICAL SYMBOL BEGIN BEAM</td><td><span class="b">]<span>𝅳</span>[</span></td><td>  U+1D173</td></tr>
+
+<tr><td>MUSICAL SYMBOL END BEAM</td><td><span class="b">]<span>𝅴</span>[</span></td><td>  U+1D174</td></tr>
+
+<tr><td>MUSICAL SYMBOL BEGIN TIE</td><td><span class="b">]<span>𝅵</span>[</span></td><td>  U+1D175</td></tr>
+
+<tr><td>MUSICAL SYMBOL END TIE</td><td><span class="b">]<span>𝅶</span>[</span></td><td>  U+1D176</td></tr>
+
+<tr><td>MUSICAL SYMBOL BEGIN SLUR</td><td><span class="b">]<span>𝅷</span>[</span></td><td>  U+1D177</td></tr>
+
+<tr><td>MUSICAL SYMBOL END SLUR</td><td><span class="b">]<span>𝅸</span>[</span></td><td>  U+1D178</td></tr>
+
+<tr><td>MUSICAL SYMBOL BEGIN PHRASE</td><td><span class="b">]<span>𝅹</span>[</span></td><td>  U+1D179</td></tr>
+
+<tr><td>MUSICAL SYMBOL END PHRASE</td><td><span class="b">]<span>𝅺</span>[</span></td><td>  U+1D17A</td></tr></table>
+</article>
+
+      <footer class="not-index">
+        <a href="/" class="action">character.construction</a> is curated by <a href="https://twitter.com/JanLelis">@JanLelis</a><br/>
+        Unicode 11.0 / Emoji 12.0<br/>
+        <a href="https://janlelis.com/data-protection">Privacy Policy</a>
+          <br />
+          <br />
+          <em class="quote">Unicode provides a unique number for every character,
+          no matter what the platform,
+          no matter what the program,
+          no matter what the language.</em>
+          —&nbsp;<a href="https://www.unicode.org/standard/WhatIsUnicode.html">unicode.org</a>
+      </footer>
+    </div>
+  </body>
+</html>

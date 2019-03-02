@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <title>character.construction</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Unicode BOM"/>
+    <meta name="keywords" content="unicode, codepoints, data"/>
+
+    <script>
+function registerShake() {
+  document.querySelectorAll('.u,.n,.f,.c, .b').forEach(function(e){
+    var shakeInProgressTimeout = null
+    e.addEventListener('click', function(){
+      if(shakeInProgressTimeout){
+        clearTimeout(shakeInProgressTimeout)
+        shakeInProgressTimeout = null
+        e.classList.remove('shake')
+      } else {
+        e.classList.add('shake')
+        shakeInProgressTimeout = setTimeout(function(){
+          e.classList.remove('shake')
+          shakeInProgressTimeout = null
+        }, 1400)
+      }
+    })
+  })
+}
+
+document.addEventListener('DOMContentLoaded', registerShake)
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+    })
+  })
+})
+
+function scrollTo(href, cb) {
+  if(window) {
+    if(document.body.scrollIntoView) {
+      document.querySelector(href).scrollIntoView({
+        behavior: 'smooth'
+      })
+      if(cb){ setTimeout(cb, 200) }
+    } else {
+      window.location.href = href
+      if(cb){ cb() }
+    }
+  }
+}
+
+function registerScroll() {
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener("click", function(event) {
+      event.preventDefault()
+      scrollTo(a.hash)
+    })
+  })
+}
+document.addEventListener('DOMContentLoaded', registerScroll)
+    </script>
+
+    <script src="https://unpkg.com/clipboard@2.0.0/dist/clipboard.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        new ClipboardJS('.c, .e, .f, .n', {
+          text: function(trigger) {
+            return trigger.textContent
+          }
+        }).on("success", function(e) {
+          // console.log("copy: " + e.text)
+        })
+
+        new ClipboardJS('.b', {
+          text: function(trigger) {
+            return trigger.children[0].textContent
+          }
+        }).on("success", function(e) {
+          // console.log("copy: " + e.text)
+        })
+      })
+
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+
+      <section class="post-header">
+        <h1 class="post-heading" id="top"><a class="cc" href="/">[ character.construction ]</a></h1>
+      </section>
+
+     	<article class="post"><div class="site-intro">
+  Welcome! Unicode is an important ground layer of modern communication.<br />
+  Reason enough to collect notable characters, codepoints, and resources.
+</div>
+
+<ul class="links">
+  <li><a href="/emoji.html"><span>All Emoji Nothing Else</span></a></li>
+  <li><a href="/emoji-categories.html"><span>Emoji Names and Categories</span></a></li>
+  <li><a href="/emoji-text.html"><span>Emoji vs. Text Presentation</span></a></li>
+  <li><a href="/blanks.html"><span>Blank Characters</span></a></li>
+</ul>
+
+<!--
+
+  <li><a href="https://www.youtube.com/watch?v=hlryzsdGtZo"><span>📺 Ten Unicode Characters You Should Know About As a Programmer</span></a></li>
+  <li><a href="/controls.html"><span>Pre-Unicode Control Characters</span></a></li>
+
+## Codepoint Collections
+
+- [Ignorables](/ignorables.html)
+- [Tags](/tags.html)
+
+## Misc
+  <li><a href="/numbers.html"><span>Numerical Values</span></a></li>
+- [Assignment Stats](/assignment_stats.html)
+- [BOM](/bom.html)
+- [Encodings](/encodings.html)
+- [Box Drawing](/box.html)
+- [CLI](/box.html)
+  <li><a href="/cli.html"><span>$ uniscribe<br/>$ unibits<br/>$ unicopy</span></a></li>
+- Write Explanation for Controls + Copy
+- Extended Picto List
+- A-Z comparison table (all styles, ri, tags, etc.)
+- List on Non-Characters
+
+Polish:
+
+- remove lofs of stuff (css, html)
+- debug categories
+
+Polish:
+
+- css colors & "logo"
+- css spaces
+- fotter
+- only local resources
+
+
+
+all-emoji: logo - header improven
+all-emoji: footer improven
+categories: abstand zwischen überschriften
+categories: check all links
+categories: responsive columns
+index: besser kästen (mehr info?)
+index: intro in breite begrenzen
+general: only local resources (github ribbon, font, doublecheck)
+
+-->
+
+<p><a href="https://github.com/janlelis/character.construction"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" /></a></p>
+</article>
+
+      <footer class="index">
+        <a href="/" class="action">character.construction</a> is curated by <a href="https://twitter.com/JanLelis">@JanLelis</a><br/>
+        Unicode 11.0 / Emoji 12.0<br/>
+        <a href="https://janlelis.com/data-protection">Privacy Policy</a>
+      </footer>
+    </div>
+  </body>
+</html>
