@@ -94,9 +94,10 @@ document.addEventListener('DOMContentLoaded', registerScroll)
         <a class="cc" href="/">[ character.construction ]</a>
         <ul class="links">
           <li><a href="/"><span>All Emoji</span></a></li>
-          <li><a href="/emoji-categories.html"><span>Emoji Categories</span></a></li>
-          <li><a href="/emoji-vs-text.html"><span>Emoji vs. Text</span></a></li>
-          <li><a href="/blanks.html"><span>Blank Characters</span></a></li>
+          <li><a href="/emoji-categories"><span>Emoji Categories</span></a></li>
+          <li><a href="/emoji-vs-text"><span>Emoji vs. Text</span></a></li>
+          <li><a href="/blanks"><span>Blank Characters</span></a></li>
+          <li><a href="/numbers"><span>Unicode Numbers</span></a></li>
         </ul>
         <h1 class="post-heading" id="top"> Blank Characters</h1>
       </section>
@@ -108,6 +109,26 @@ document.addEventListener('DOMContentLoaded', registerScroll)
 
   Please also note, some codepoints in Unicode are marked as <a href="https://idiosyncratic-ruby.com/66-ruby-has-character.html#ignorable-codepoints">ignorable</a> and often do not render <em>anything</em>, not even a space.
 </div>
+
+<h3 id="line-breaks--separators">Line Breaks / Separators</h3>
+
+<table><tr><th>Name</th><th>Character</th><th>Codepoint</th></tr><tr><td>LINE FEED</td><td><span class="b">]<span>
+</span>[</span></td><td>   U+000A</td></tr>
+
+<tr><td>LINE TABULATION</td><td><span class="b">]<span></span>[</span></td><td>   U+000B</td></tr>
+
+<tr><td>FORM FEED</td><td><span class="b">]<span></span>[</span></td><td>   U+000C</td></tr>
+
+<tr><td>CARRIAGE RETURN</td><td><span class="b">]<span>
+</span>[</span></td><td>   U+000D</td></tr>
+
+<tr><td>NEXT LINE</td><td><span class="b">]<span></span>[</span></td><td>   U+0085</td></tr>
+
+<tr><td>LINE SEPARATOR</td><td><span class="b">]<span> </span>[</span></td><td>   U+2028</td></tr>
+
+<tr><td>PARAGRAPH SEPARATOR</td><td><span class="b">]<span> </span>[</span></td><td>   U+2029</td></tr></table>
+
+<h3 id="whitespace--other-invisible">Whitespace / Other Invisible</h3>
 
 
 
