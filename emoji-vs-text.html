@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', registerShake)
 document.addEventListener('DOMContentLoaded', function(){
   ['h2', 'h3'].forEach(function(h){
     document.querySelectorAll(h).forEach(function(e){
-      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
     })
   })
 })
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">😄️</span></td>
     </tr>
     <tr>
-      <td>GRINNING FACE WITH SMILING EYES</td>
+      <td>BEAMING FACE WITH SMILING EYES</td>
       <td>U+1F601</td>
       <td><span class="n">😁︎</span></td>
       <td><span class="n">😁</span></td>
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🤩️</span></td>
     </tr>
     <tr>
-      <td>FACE THROWING A KISS</td>
+      <td>FACE BLOWING A KISS</td>
       <td>U+1F618</td>
       <td><span class="n">😘︎</span></td>
       <td><span class="n">😘</span></td>
@@ -284,14 +284,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">😋️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH STUCK-OUT TONGUE</td>
+      <td>FACE WITH TONGUE</td>
       <td>U+1F61B</td>
       <td><span class="n">😛︎</span></td>
       <td><span class="n">😛</span></td>
       <td><span class="n">😛️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH STUCK-OUT TONGUE AND WINKING EYE</td>
+      <td>WINKING FACE WITH TONGUE</td>
       <td>U+1F61C</td>
       <td><span class="n">😜︎</span></td>
       <td><span class="n">😜</span></td>
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🤐️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH ONE EYEBROW RAISED</td>
+      <td>FACE WITH RAISED EYEBROW</td>
       <td>U+1F928</td>
       <td><span class="n">🤨︎</span></td>
       <td><span class="n">🤨</span></td>
@@ -529,14 +529,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🤯️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH COWBOY HAT</td>
+      <td>COWBOY HAT FACE</td>
       <td>U+1F920</td>
       <td><span class="n">🤠︎</span></td>
       <td><span class="n">🤠</span></td>
       <td><span class="n">🤠️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH PARTY HORN AND PARTY HAT</td>
+      <td>PARTYING FACE</td>
       <td>U+1F973</td>
       <td><span class="n">🥳︎</span></td>
       <td><span class="n">🥳</span></td>
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">😳️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH PLEADING EYES</td>
+      <td>PLEADING FACE</td>
       <td>U+1F97A</td>
       <td><span class="n">🥺︎</span></td>
       <td><span class="n">🥺</span></td>
@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">😨️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH OPEN MOUTH AND COLD SWEAT</td>
+      <td>ANXIOUS FACE WITH SWEAT</td>
       <td>U+1F630</td>
       <td><span class="n">😰︎</span></td>
       <td><span class="n">😰</span></td>
@@ -725,7 +725,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">😫️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>YAWNING FACE</td>
       <td>U+1F971</td>
       <td><span class="n">🥱︎</span></td>
       <td><span class="n">🥱</span></td>
@@ -1054,7 +1054,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">💜️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BROWN HEART</td>
       <td>U+1F90E</td>
       <td><span class="n">🤎︎</span></td>
       <td><span class="n">🤎</span></td>
@@ -1068,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🖤️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>WHITE HEART</td>
       <td>U+1F90D</td>
       <td><span class="n">🤍︎</span></td>
       <td><span class="n">🤍</span></td>
@@ -1425,42 +1425,42 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👌🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND</td>
       <td>U+1F90F</td>
       <td><span class="n">🤏︎</span></td>
       <td><span class="n">🤏</span></td>
       <td><span class="n">🤏️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND: LIGHT SKIN TONE</td>
       <td>U+1F90F<br />U+1F3FB</td>
       <td><span class="n">🤏🏻︎</span></td>
       <td><span class="n">🤏🏻</span></td>
       <td><span class="n">🤏🏻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F90F<br />U+1F3FC</td>
       <td><span class="n">🤏🏼︎</span></td>
       <td><span class="n">🤏🏼</span></td>
       <td><span class="n">🤏🏼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND: MEDIUM SKIN TONE</td>
       <td>U+1F90F<br />U+1F3FD</td>
       <td><span class="n">🤏🏽︎</span></td>
       <td><span class="n">🤏🏽</span></td>
       <td><span class="n">🤏🏽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F90F<br />U+1F3FE</td>
       <td><span class="n">🤏🏾︎</span></td>
       <td><span class="n">🤏🏾</span></td>
       <td><span class="n">🤏🏾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PINCHING HAND: DARK SKIN TONE</td>
       <td>U+1F90F<br />U+1F3FF</td>
       <td><span class="n">🤏🏿︎</span></td>
       <td><span class="n">🤏🏿</span></td>
@@ -1551,7 +1551,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🤞🏿️</span></td>
     </tr>
     <tr>
-      <td>I LOVE YOU HAND SIGN</td>
+      <td>LOVE-YOU GESTURE</td>
       <td>U+1F91F</td>
       <td><span class="n">🤟︎</span></td>
       <td><span class="n">🤟</span></td>
@@ -1803,7 +1803,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👆🏿️</span></td>
     </tr>
     <tr>
-      <td>REVERSED HAND WITH MIDDLE FINGER EXTENDED</td>
+      <td>MIDDLE FINGER</td>
       <td>U+1F595</td>
       <td><span class="n">🖕︎</span></td>
       <td><span class="n">🖕</span></td>
@@ -2566,14 +2566,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">💪🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>MECHANICAL ARM</td>
       <td>U+1F9BE</td>
       <td><span class="n">🦾︎</span></td>
       <td><span class="n">🦾</span></td>
       <td><span class="n">🦾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>MECHANICAL LEG</td>
       <td>U+1F9BF</td>
       <td><span class="n">🦿︎</span></td>
       <td><span class="n">🦿</span></td>
@@ -2706,42 +2706,42 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👂🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID</td>
       <td>U+1F9BB</td>
       <td><span class="n">🦻︎</span></td>
       <td><span class="n">🦻</span></td>
       <td><span class="n">🦻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID: LIGHT SKIN TONE</td>
       <td>U+1F9BB<br />U+1F3FB</td>
       <td><span class="n">🦻🏻︎</span></td>
       <td><span class="n">🦻🏻</span></td>
       <td><span class="n">🦻🏻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9BB<br />U+1F3FC</td>
       <td><span class="n">🦻🏼︎</span></td>
       <td><span class="n">🦻🏼</span></td>
       <td><span class="n">🦻🏼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID: MEDIUM SKIN TONE</td>
       <td>U+1F9BB<br />U+1F3FD</td>
       <td><span class="n">🦻🏽︎</span></td>
       <td><span class="n">🦻🏽</span></td>
       <td><span class="n">🦻🏽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9BB<br />U+1F3FE</td>
       <td><span class="n">🦻🏾︎</span></td>
       <td><span class="n">🦻🏾</span></td>
       <td><span class="n">🦻🏾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>EAR WITH HEARING AID: DARK SKIN TONE</td>
       <td>U+1F9BB<br />U+1F3FF</td>
       <td><span class="n">🦻🏿︎</span></td>
       <td><span class="n">🦻🏿</span></td>
@@ -3014,35 +3014,35 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🧑️</span></td>
     </tr>
     <tr>
-      <td>ADULT: LIGHT SKIN TONE</td>
+      <td>PERSON: LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏻︎</span></td>
       <td><span class="n">🧑🏻</span></td>
       <td><span class="n">🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT: MEDIUM-LIGHT SKIN TONE</td>
+      <td>PERSON: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FC</td>
       <td><span class="n">🧑🏼︎</span></td>
       <td><span class="n">🧑🏼</span></td>
       <td><span class="n">🧑🏼️</span></td>
     </tr>
     <tr>
-      <td>ADULT: MEDIUM SKIN TONE</td>
+      <td>PERSON: MEDIUM SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FD</td>
       <td><span class="n">🧑🏽︎</span></td>
       <td><span class="n">🧑🏽</span></td>
       <td><span class="n">🧑🏽️</span></td>
     </tr>
     <tr>
-      <td>ADULT: MEDIUM-DARK SKIN TONE</td>
+      <td>PERSON: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FE</td>
       <td><span class="n">🧑🏾︎</span></td>
       <td><span class="n">🧑🏾</span></td>
       <td><span class="n">🧑🏾️</span></td>
     </tr>
     <tr>
-      <td>ADULT: DARK SKIN TONE</td>
+      <td>PERSON: DARK SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF</td>
       <td><span class="n">🧑🏿︎</span></td>
       <td><span class="n">🧑🏿</span></td>
@@ -3056,35 +3056,35 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👱️</span></td>
     </tr>
     <tr>
-      <td>BLOND-HAIRED PERSON: LIGHT SKIN TONE</td>
+      <td>PERSON: LIGHT SKIN TONE, BLOND HAIR</td>
       <td>U+1F471<br />U+1F3FB</td>
       <td><span class="n">👱🏻︎</span></td>
       <td><span class="n">👱🏻</span></td>
       <td><span class="n">👱🏻️</span></td>
     </tr>
     <tr>
-      <td>BLOND-HAIRED PERSON: MEDIUM-LIGHT SKIN TONE</td>
+      <td>PERSON: MEDIUM-LIGHT SKIN TONE, BLOND HAIR</td>
       <td>U+1F471<br />U+1F3FC</td>
       <td><span class="n">👱🏼︎</span></td>
       <td><span class="n">👱🏼</span></td>
       <td><span class="n">👱🏼️</span></td>
     </tr>
     <tr>
-      <td>BLOND-HAIRED PERSON: MEDIUM SKIN TONE</td>
+      <td>PERSON: MEDIUM SKIN TONE, BLOND HAIR</td>
       <td>U+1F471<br />U+1F3FD</td>
       <td><span class="n">👱🏽︎</span></td>
       <td><span class="n">👱🏽</span></td>
       <td><span class="n">👱🏽️</span></td>
     </tr>
     <tr>
-      <td>BLOND-HAIRED PERSON: MEDIUM-DARK SKIN TONE</td>
+      <td>PERSON: MEDIUM-DARK SKIN TONE, BLOND HAIR</td>
       <td>U+1F471<br />U+1F3FE</td>
       <td><span class="n">👱🏾︎</span></td>
       <td><span class="n">👱🏾</span></td>
       <td><span class="n">👱🏾️</span></td>
     </tr>
     <tr>
-      <td>BLOND-HAIRED PERSON: DARK SKIN TONE</td>
+      <td>PERSON: DARK SKIN TONE, BLOND HAIR</td>
       <td>U+1F471<br />U+1F3FF</td>
       <td><span class="n">👱🏿︎</span></td>
       <td><span class="n">👱🏿</span></td>
@@ -3140,35 +3140,35 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🧔️</span></td>
     </tr>
     <tr>
-      <td>BEARDED PERSON: LIGHT SKIN TONE</td>
+      <td>MAN: LIGHT SKIN TONE, BEARD</td>
       <td>U+1F9D4<br />U+1F3FB</td>
       <td><span class="n">🧔🏻︎</span></td>
       <td><span class="n">🧔🏻</span></td>
       <td><span class="n">🧔🏻️</span></td>
     </tr>
     <tr>
-      <td>BEARDED PERSON: MEDIUM-LIGHT SKIN TONE</td>
+      <td>MAN: MEDIUM-LIGHT SKIN TONE, BEARD</td>
       <td>U+1F9D4<br />U+1F3FC</td>
       <td><span class="n">🧔🏼︎</span></td>
       <td><span class="n">🧔🏼</span></td>
       <td><span class="n">🧔🏼️</span></td>
     </tr>
     <tr>
-      <td>BEARDED PERSON: MEDIUM SKIN TONE</td>
+      <td>MAN: MEDIUM SKIN TONE, BEARD</td>
       <td>U+1F9D4<br />U+1F3FD</td>
       <td><span class="n">🧔🏽︎</span></td>
       <td><span class="n">🧔🏽</span></td>
       <td><span class="n">🧔🏽️</span></td>
     </tr>
     <tr>
-      <td>BEARDED PERSON: MEDIUM-DARK SKIN TONE</td>
+      <td>MAN: MEDIUM-DARK SKIN TONE, BEARD</td>
       <td>U+1F9D4<br />U+1F3FE</td>
       <td><span class="n">🧔🏾︎</span></td>
       <td><span class="n">🧔🏾</span></td>
       <td><span class="n">🧔🏾️</span></td>
     </tr>
     <tr>
-      <td>BEARDED PERSON: DARK SKIN TONE</td>
+      <td>MAN: DARK SKIN TONE, BEARD</td>
       <td>U+1F9D4<br />U+1F3FF</td>
       <td><span class="n">🧔🏿︎</span></td>
       <td><span class="n">🧔🏿</span></td>
@@ -3217,168 +3217,168 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👱🏿‍♂️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED</td>
+      <td>MAN: RED HAIR</td>
       <td>U+1F468<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨‍🦰︎</span></td>
       <td><span class="n">👨‍🦰</span></td>
       <td><span class="n">👨‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED: LIGHT SKIN TONE</td>
+      <td>MAN: LIGHT SKIN TONE, RED HAIR</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨🏻‍🦰︎</span></td>
       <td><span class="n">👨🏻‍🦰</span></td>
       <td><span class="n">👨🏻‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>MAN: MEDIUM-LIGHT SKIN TONE, RED HAIR</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨🏼‍🦰︎</span></td>
       <td><span class="n">👨🏼‍🦰</span></td>
       <td><span class="n">👨🏼‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED: MEDIUM SKIN TONE</td>
+      <td>MAN: MEDIUM SKIN TONE, RED HAIR</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨🏽‍🦰︎</span></td>
       <td><span class="n">👨🏽‍🦰</span></td>
       <td><span class="n">👨🏽‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>MAN: MEDIUM-DARK SKIN TONE, RED HAIR</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨🏾‍🦰︎</span></td>
       <td><span class="n">👨🏾‍🦰</span></td>
       <td><span class="n">👨🏾‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, RED HAIRED: DARK SKIN TONE</td>
+      <td>MAN: DARK SKIN TONE, RED HAIR</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👨🏿‍🦰︎</span></td>
       <td><span class="n">👨🏿‍🦰</span></td>
       <td><span class="n">👨🏿‍🦰️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED</td>
+      <td>MAN: CURLY HAIR</td>
       <td>U+1F468<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨‍🦱︎</span></td>
       <td><span class="n">👨‍🦱</span></td>
       <td><span class="n">👨‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED: LIGHT SKIN TONE</td>
+      <td>MAN: LIGHT SKIN TONE, CURLY HAIR</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨🏻‍🦱︎</span></td>
       <td><span class="n">👨🏻‍🦱</span></td>
       <td><span class="n">👨🏻‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>MAN: MEDIUM-LIGHT SKIN TONE, CURLY HAIR</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨🏼‍🦱︎</span></td>
       <td><span class="n">👨🏼‍🦱</span></td>
       <td><span class="n">👨🏼‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED: MEDIUM SKIN TONE</td>
+      <td>MAN: MEDIUM SKIN TONE, CURLY HAIR</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨🏽‍🦱︎</span></td>
       <td><span class="n">👨🏽‍🦱</span></td>
       <td><span class="n">👨🏽‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>MAN: MEDIUM-DARK SKIN TONE, CURLY HAIR</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨🏾‍🦱︎</span></td>
       <td><span class="n">👨🏾‍🦱</span></td>
       <td><span class="n">👨🏾‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, CURLY HAIRED: DARK SKIN TONE</td>
+      <td>MAN: DARK SKIN TONE, CURLY HAIR</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👨🏿‍🦱︎</span></td>
       <td><span class="n">👨🏿‍🦱</span></td>
       <td><span class="n">👨🏿‍🦱️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED</td>
+      <td>MAN: WHITE HAIR</td>
       <td>U+1F468<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨‍🦳︎</span></td>
       <td><span class="n">👨‍🦳</span></td>
       <td><span class="n">👨‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED: LIGHT SKIN TONE</td>
+      <td>MAN: LIGHT SKIN TONE, WHITE HAIR</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨🏻‍🦳︎</span></td>
       <td><span class="n">👨🏻‍🦳</span></td>
       <td><span class="n">👨🏻‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>MAN: MEDIUM-LIGHT SKIN TONE, WHITE HAIR</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨🏼‍🦳︎</span></td>
       <td><span class="n">👨🏼‍🦳</span></td>
       <td><span class="n">👨🏼‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED: MEDIUM SKIN TONE</td>
+      <td>MAN: MEDIUM SKIN TONE, WHITE HAIR</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨🏽‍🦳︎</span></td>
       <td><span class="n">👨🏽‍🦳</span></td>
       <td><span class="n">👨🏽‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>MAN: MEDIUM-DARK SKIN TONE, WHITE HAIR</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨🏾‍🦳︎</span></td>
       <td><span class="n">👨🏾‍🦳</span></td>
       <td><span class="n">👨🏾‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, WHITE HAIRED: DARK SKIN TONE</td>
+      <td>MAN: DARK SKIN TONE, WHITE HAIR</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👨🏿‍🦳︎</span></td>
       <td><span class="n">👨🏿‍🦳</span></td>
       <td><span class="n">👨🏿‍🦳️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD</td>
+      <td>MAN: BALD</td>
       <td>U+1F468<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨‍🦲︎</span></td>
       <td><span class="n">👨‍🦲</span></td>
       <td><span class="n">👨‍🦲️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD: LIGHT SKIN TONE</td>
+      <td>MAN: LIGHT SKIN TONE, BALD</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨🏻‍🦲︎</span></td>
       <td><span class="n">👨🏻‍🦲</span></td>
       <td><span class="n">👨🏻‍🦲️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD: MEDIUM-LIGHT SKIN TONE</td>
+      <td>MAN: MEDIUM-LIGHT SKIN TONE, BALD</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨🏼‍🦲︎</span></td>
       <td><span class="n">👨🏼‍🦲</span></td>
       <td><span class="n">👨🏼‍🦲️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD: MEDIUM SKIN TONE</td>
+      <td>MAN: MEDIUM SKIN TONE, BALD</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨🏽‍🦲︎</span></td>
       <td><span class="n">👨🏽‍🦲</span></td>
       <td><span class="n">👨🏽‍🦲️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD: MEDIUM-DARK SKIN TONE</td>
+      <td>MAN: MEDIUM-DARK SKIN TONE, BALD</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨🏾‍🦲︎</span></td>
       <td><span class="n">👨🏾‍🦲</span></td>
       <td><span class="n">👨🏾‍🦲️</span></td>
     </tr>
     <tr>
-      <td>MAN, BALD: DARK SKIN TONE</td>
+      <td>MAN: DARK SKIN TONE, BALD</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👨🏿‍🦲︎</span></td>
       <td><span class="n">👨🏿‍🦲</span></td>
@@ -3469,168 +3469,168 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👱🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED</td>
+      <td>WOMAN: RED HAIR</td>
       <td>U+1F469<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩‍🦰︎</span></td>
       <td><span class="n">👩‍🦰</span></td>
       <td><span class="n">👩‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED: LIGHT SKIN TONE</td>
+      <td>WOMAN: LIGHT SKIN TONE, RED HAIR</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩🏻‍🦰︎</span></td>
       <td><span class="n">👩🏻‍🦰</span></td>
       <td><span class="n">👩🏻‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>WOMAN: MEDIUM-LIGHT SKIN TONE, RED HAIR</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩🏼‍🦰︎</span></td>
       <td><span class="n">👩🏼‍🦰</span></td>
       <td><span class="n">👩🏼‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED: MEDIUM SKIN TONE</td>
+      <td>WOMAN: MEDIUM SKIN TONE, RED HAIR</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩🏽‍🦰︎</span></td>
       <td><span class="n">👩🏽‍🦰</span></td>
       <td><span class="n">👩🏽‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>WOMAN: MEDIUM-DARK SKIN TONE, RED HAIR</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩🏾‍🦰︎</span></td>
       <td><span class="n">👩🏾‍🦰</span></td>
       <td><span class="n">👩🏾‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, RED HAIRED: DARK SKIN TONE</td>
+      <td>WOMAN: DARK SKIN TONE, RED HAIR</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9B0</td>
       <td><span class="n">👩🏿‍🦰︎</span></td>
       <td><span class="n">👩🏿‍🦰</span></td>
       <td><span class="n">👩🏿‍🦰️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED</td>
+      <td>WOMAN: CURLY HAIR</td>
       <td>U+1F469<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩‍🦱︎</span></td>
       <td><span class="n">👩‍🦱</span></td>
       <td><span class="n">👩‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED: LIGHT SKIN TONE</td>
+      <td>WOMAN: LIGHT SKIN TONE, CURLY HAIR</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩🏻‍🦱︎</span></td>
       <td><span class="n">👩🏻‍🦱</span></td>
       <td><span class="n">👩🏻‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>WOMAN: MEDIUM-LIGHT SKIN TONE, CURLY HAIR</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩🏼‍🦱︎</span></td>
       <td><span class="n">👩🏼‍🦱</span></td>
       <td><span class="n">👩🏼‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED: MEDIUM SKIN TONE</td>
+      <td>WOMAN: MEDIUM SKIN TONE, CURLY HAIR</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩🏽‍🦱︎</span></td>
       <td><span class="n">👩🏽‍🦱</span></td>
       <td><span class="n">👩🏽‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>WOMAN: MEDIUM-DARK SKIN TONE, CURLY HAIR</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩🏾‍🦱︎</span></td>
       <td><span class="n">👩🏾‍🦱</span></td>
       <td><span class="n">👩🏾‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, CURLY HAIRED: DARK SKIN TONE</td>
+      <td>WOMAN: DARK SKIN TONE, CURLY HAIR</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9B1</td>
       <td><span class="n">👩🏿‍🦱︎</span></td>
       <td><span class="n">👩🏿‍🦱</span></td>
       <td><span class="n">👩🏿‍🦱️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED</td>
+      <td>WOMAN: WHITE HAIR</td>
       <td>U+1F469<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩‍🦳︎</span></td>
       <td><span class="n">👩‍🦳</span></td>
       <td><span class="n">👩‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED: LIGHT SKIN TONE</td>
+      <td>WOMAN: LIGHT SKIN TONE, WHITE HAIR</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩🏻‍🦳︎</span></td>
       <td><span class="n">👩🏻‍🦳</span></td>
       <td><span class="n">👩🏻‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED: MEDIUM-LIGHT SKIN TONE</td>
+      <td>WOMAN: MEDIUM-LIGHT SKIN TONE, WHITE HAIR</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩🏼‍🦳︎</span></td>
       <td><span class="n">👩🏼‍🦳</span></td>
       <td><span class="n">👩🏼‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED: MEDIUM SKIN TONE</td>
+      <td>WOMAN: MEDIUM SKIN TONE, WHITE HAIR</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩🏽‍🦳︎</span></td>
       <td><span class="n">👩🏽‍🦳</span></td>
       <td><span class="n">👩🏽‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED: MEDIUM-DARK SKIN TONE</td>
+      <td>WOMAN: MEDIUM-DARK SKIN TONE, WHITE HAIR</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩🏾‍🦳︎</span></td>
       <td><span class="n">👩🏾‍🦳</span></td>
       <td><span class="n">👩🏾‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, WHITE HAIRED: DARK SKIN TONE</td>
+      <td>WOMAN: DARK SKIN TONE, WHITE HAIR</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9B3</td>
       <td><span class="n">👩🏿‍🦳︎</span></td>
       <td><span class="n">👩🏿‍🦳</span></td>
       <td><span class="n">👩🏿‍🦳️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD</td>
+      <td>WOMAN: BALD</td>
       <td>U+1F469<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩‍🦲︎</span></td>
       <td><span class="n">👩‍🦲</span></td>
       <td><span class="n">👩‍🦲️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD: LIGHT SKIN TONE</td>
+      <td>WOMAN: LIGHT SKIN TONE, BALD</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩🏻‍🦲︎</span></td>
       <td><span class="n">👩🏻‍🦲</span></td>
       <td><span class="n">👩🏻‍🦲️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD: MEDIUM-LIGHT SKIN TONE</td>
+      <td>WOMAN: MEDIUM-LIGHT SKIN TONE, BALD</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩🏼‍🦲︎</span></td>
       <td><span class="n">👩🏼‍🦲</span></td>
       <td><span class="n">👩🏼‍🦲️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD: MEDIUM SKIN TONE</td>
+      <td>WOMAN: MEDIUM SKIN TONE, BALD</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩🏽‍🦲︎</span></td>
       <td><span class="n">👩🏽‍🦲</span></td>
       <td><span class="n">👩🏽‍🦲️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD: MEDIUM-DARK SKIN TONE</td>
+      <td>WOMAN: MEDIUM-DARK SKIN TONE, BALD</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩🏾‍🦲︎</span></td>
       <td><span class="n">👩🏾‍🦲</span></td>
       <td><span class="n">👩🏾‍🦲️</span></td>
     </tr>
     <tr>
-      <td>WOMAN, BALD: DARK SKIN TONE</td>
+      <td>WOMAN: DARK SKIN TONE, BALD</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9B2</td>
       <td><span class="n">👩🏿‍🦲︎</span></td>
       <td><span class="n">👩🏿‍🦲</span></td>
@@ -3644,35 +3644,35 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🧓️</span></td>
     </tr>
     <tr>
-      <td>OLDER ADULT: LIGHT SKIN TONE</td>
+      <td>OLDER PERSON: LIGHT SKIN TONE</td>
       <td>U+1F9D3<br />U+1F3FB</td>
       <td><span class="n">🧓🏻︎</span></td>
       <td><span class="n">🧓🏻</span></td>
       <td><span class="n">🧓🏻️</span></td>
     </tr>
     <tr>
-      <td>OLDER ADULT: MEDIUM-LIGHT SKIN TONE</td>
+      <td>OLDER PERSON: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D3<br />U+1F3FC</td>
       <td><span class="n">🧓🏼︎</span></td>
       <td><span class="n">🧓🏼</span></td>
       <td><span class="n">🧓🏼️</span></td>
     </tr>
     <tr>
-      <td>OLDER ADULT: MEDIUM SKIN TONE</td>
+      <td>OLDER PERSON: MEDIUM SKIN TONE</td>
       <td>U+1F9D3<br />U+1F3FD</td>
       <td><span class="n">🧓🏽︎</span></td>
       <td><span class="n">🧓🏽</span></td>
       <td><span class="n">🧓🏽️</span></td>
     </tr>
     <tr>
-      <td>OLDER ADULT: MEDIUM-DARK SKIN TONE</td>
+      <td>OLDER PERSON: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9D3<br />U+1F3FE</td>
       <td><span class="n">🧓🏾︎</span></td>
       <td><span class="n">🧓🏾</span></td>
       <td><span class="n">🧓🏾️</span></td>
     </tr>
     <tr>
-      <td>OLDER ADULT: DARK SKIN TONE</td>
+      <td>OLDER PERSON: DARK SKIN TONE</td>
       <td>U+1F9D3<br />U+1F3FF</td>
       <td><span class="n">🧓🏿︎</span></td>
       <td><span class="n">🧓🏿</span></td>
@@ -4015,7 +4015,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🙎🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td>FACE WITH NO GOOD GESTURE</td>
+      <td>PERSON GESTURING NO</td>
       <td>U+1F645</td>
       <td><span class="n">🙅︎</span></td>
       <td><span class="n">🙅</span></td>
@@ -4519,126 +4519,126 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🙋🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF</td>
       <td><span class="n">🧏︎</span></td>
       <td><span class="n">🧏</span></td>
       <td><span class="n">🧏️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON: LIGHT SKIN TONE</td>
       <td>U+1F9CF<br />U+1F3FB</td>
       <td><span class="n">🧏🏻︎</span></td>
       <td><span class="n">🧏🏻</span></td>
       <td><span class="n">🧏🏻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9CF<br />U+1F3FC</td>
       <td><span class="n">🧏🏼︎</span></td>
       <td><span class="n">🧏🏼</span></td>
       <td><span class="n">🧏🏼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON: MEDIUM SKIN TONE</td>
       <td>U+1F9CF<br />U+1F3FD</td>
       <td><span class="n">🧏🏽︎</span></td>
       <td><span class="n">🧏🏽</span></td>
       <td><span class="n">🧏🏽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9CF<br />U+1F3FE</td>
       <td><span class="n">🧏🏾︎</span></td>
       <td><span class="n">🧏🏾</span></td>
       <td><span class="n">🧏🏾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON: DARK SKIN TONE</td>
       <td>U+1F9CF<br />U+1F3FF</td>
       <td><span class="n">🧏🏿︎</span></td>
       <td><span class="n">🧏🏿</span></td>
       <td><span class="n">🧏🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏‍♂︎</span></td>
       <td><span class="n">🧏‍♂</span></td>
       <td><span class="n">🧏‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FB<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏🏻‍♂︎</span></td>
       <td><span class="n">🧏🏻‍♂</span></td>
       <td><span class="n">🧏🏻‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FC<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏🏼‍♂︎</span></td>
       <td><span class="n">🧏🏼‍♂</span></td>
       <td><span class="n">🧏🏼‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FD<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏🏽‍♂︎</span></td>
       <td><span class="n">🧏🏽‍♂</span></td>
       <td><span class="n">🧏🏽‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FE<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏🏾‍♂︎</span></td>
       <td><span class="n">🧏🏾‍♂</span></td>
       <td><span class="n">🧏🏾‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FF<br />U+200D<br />U+2642</td>
       <td><span class="n">🧏🏿‍♂︎</span></td>
       <td><span class="n">🧏🏿‍♂</span></td>
       <td><span class="n">🧏🏿‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏‍♀︎</span></td>
       <td><span class="n">🧏‍♀</span></td>
       <td><span class="n">🧏‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FB<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏🏻‍♀︎</span></td>
       <td><span class="n">🧏🏻‍♀</span></td>
       <td><span class="n">🧏🏻‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FC<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏🏼‍♀︎</span></td>
       <td><span class="n">🧏🏼‍♀</span></td>
       <td><span class="n">🧏🏼‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FD<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏🏽‍♀︎</span></td>
       <td><span class="n">🧏🏽‍♀</span></td>
       <td><span class="n">🧏🏽‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FE<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏🏾‍♀︎</span></td>
       <td><span class="n">🧏🏾‍♀</span></td>
       <td><span class="n">🧏🏾‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DEAF PERSON</td>
       <td>U+1F9CF<br />U+1F3FF<br />U+200D<br />U+2640</td>
       <td><span class="n">🧏🏿‍♀︎</span></td>
       <td><span class="n">🧏🏿‍♀</span></td>
@@ -8761,504 +8761,504 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🚶🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING</td>
       <td>U+1F9CD</td>
       <td><span class="n">🧍︎</span></td>
       <td><span class="n">🧍</span></td>
       <td><span class="n">🧍️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING: LIGHT SKIN TONE</td>
       <td>U+1F9CD<br />U+1F3FB</td>
       <td><span class="n">🧍🏻︎</span></td>
       <td><span class="n">🧍🏻</span></td>
       <td><span class="n">🧍🏻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9CD<br />U+1F3FC</td>
       <td><span class="n">🧍🏼︎</span></td>
       <td><span class="n">🧍🏼</span></td>
       <td><span class="n">🧍🏼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING: MEDIUM SKIN TONE</td>
       <td>U+1F9CD<br />U+1F3FD</td>
       <td><span class="n">🧍🏽︎</span></td>
       <td><span class="n">🧍🏽</span></td>
       <td><span class="n">🧍🏽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9CD<br />U+1F3FE</td>
       <td><span class="n">🧍🏾︎</span></td>
       <td><span class="n">🧍🏾</span></td>
       <td><span class="n">🧍🏾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON STANDING: DARK SKIN TONE</td>
       <td>U+1F9CD<br />U+1F3FF</td>
       <td><span class="n">🧍🏿︎</span></td>
       <td><span class="n">🧍🏿</span></td>
       <td><span class="n">🧍🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍‍♂︎</span></td>
       <td><span class="n">🧍‍♂</span></td>
       <td><span class="n">🧍‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FB<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍🏻‍♂︎</span></td>
       <td><span class="n">🧍🏻‍♂</span></td>
       <td><span class="n">🧍🏻‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FC<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍🏼‍♂︎</span></td>
       <td><span class="n">🧍🏼‍♂</span></td>
       <td><span class="n">🧍🏼‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FD<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍🏽‍♂︎</span></td>
       <td><span class="n">🧍🏽‍♂</span></td>
       <td><span class="n">🧍🏽‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FE<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍🏾‍♂︎</span></td>
       <td><span class="n">🧍🏾‍♂</span></td>
       <td><span class="n">🧍🏾‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FF<br />U+200D<br />U+2642</td>
       <td><span class="n">🧍🏿‍♂︎</span></td>
       <td><span class="n">🧍🏿‍♂</span></td>
       <td><span class="n">🧍🏿‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍‍♀︎</span></td>
       <td><span class="n">🧍‍♀</span></td>
       <td><span class="n">🧍‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FB<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍🏻‍♀︎</span></td>
       <td><span class="n">🧍🏻‍♀</span></td>
       <td><span class="n">🧍🏻‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FC<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍🏼‍♀︎</span></td>
       <td><span class="n">🧍🏼‍♀</span></td>
       <td><span class="n">🧍🏼‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FD<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍🏽‍♀︎</span></td>
       <td><span class="n">🧍🏽‍♀</span></td>
       <td><span class="n">🧍🏽‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FE<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍🏾‍♀︎</span></td>
       <td><span class="n">🧍🏾‍♀</span></td>
       <td><span class="n">🧍🏾‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STANDING PERSON</td>
       <td>U+1F9CD<br />U+1F3FF<br />U+200D<br />U+2640</td>
       <td><span class="n">🧍🏿‍♀︎</span></td>
       <td><span class="n">🧍🏿‍♀</span></td>
       <td><span class="n">🧍🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE</td>
       <td><span class="n">🧎︎</span></td>
       <td><span class="n">🧎</span></td>
       <td><span class="n">🧎️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON KNEELING: LIGHT SKIN TONE</td>
       <td>U+1F9CE<br />U+1F3FB</td>
       <td><span class="n">🧎🏻︎</span></td>
       <td><span class="n">🧎🏻</span></td>
       <td><span class="n">🧎🏻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON KNEELING: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9CE<br />U+1F3FC</td>
       <td><span class="n">🧎🏼︎</span></td>
       <td><span class="n">🧎🏼</span></td>
       <td><span class="n">🧎🏼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON KNEELING: MEDIUM SKIN TONE</td>
       <td>U+1F9CE<br />U+1F3FD</td>
       <td><span class="n">🧎🏽︎</span></td>
       <td><span class="n">🧎🏽</span></td>
       <td><span class="n">🧎🏽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON KNEELING: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9CE<br />U+1F3FE</td>
       <td><span class="n">🧎🏾︎</span></td>
       <td><span class="n">🧎🏾</span></td>
       <td><span class="n">🧎🏾️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PERSON KNEELING: DARK SKIN TONE</td>
       <td>U+1F9CE<br />U+1F3FF</td>
       <td><span class="n">🧎🏿︎</span></td>
       <td><span class="n">🧎🏿</span></td>
       <td><span class="n">🧎🏿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎‍♂︎</span></td>
       <td><span class="n">🧎‍♂</span></td>
       <td><span class="n">🧎‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FB<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎🏻‍♂︎</span></td>
       <td><span class="n">🧎🏻‍♂</span></td>
       <td><span class="n">🧎🏻‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FC<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎🏼‍♂︎</span></td>
       <td><span class="n">🧎🏼‍♂</span></td>
       <td><span class="n">🧎🏼‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FD<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎🏽‍♂︎</span></td>
       <td><span class="n">🧎🏽‍♂</span></td>
       <td><span class="n">🧎🏽‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FE<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎🏾‍♂︎</span></td>
       <td><span class="n">🧎🏾‍♂</span></td>
       <td><span class="n">🧎🏾‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FF<br />U+200D<br />U+2642</td>
       <td><span class="n">🧎🏿‍♂︎</span></td>
       <td><span class="n">🧎🏿‍♂</span></td>
       <td><span class="n">🧎🏿‍♂️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎‍♀︎</span></td>
       <td><span class="n">🧎‍♀</span></td>
       <td><span class="n">🧎‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FB<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎🏻‍♀︎</span></td>
       <td><span class="n">🧎🏻‍♀</span></td>
       <td><span class="n">🧎🏻‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FC<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎🏼‍♀︎</span></td>
       <td><span class="n">🧎🏼‍♀</span></td>
       <td><span class="n">🧎🏼‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FD<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎🏽‍♀︎</span></td>
       <td><span class="n">🧎🏽‍♀</span></td>
       <td><span class="n">🧎🏽‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FE<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎🏾‍♀︎</span></td>
       <td><span class="n">🧎🏾‍♀</span></td>
       <td><span class="n">🧎🏾‍♀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KNEELING PERSON</td>
       <td>U+1F9CE<br />U+1F3FF<br />U+200D<br />U+2640</td>
       <td><span class="n">🧎🏿‍♀︎</span></td>
       <td><span class="n">🧎🏿‍♀</span></td>
       <td><span class="n">🧎🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE</td>
       <td>U+1F468<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨‍🦯︎</span></td>
       <td><span class="n">👨‍🦯</span></td>
       <td><span class="n">👨‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE: LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨🏻‍🦯︎</span></td>
       <td><span class="n">👨🏻‍🦯</span></td>
       <td><span class="n">👨🏻‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨🏼‍🦯︎</span></td>
       <td><span class="n">👨🏼‍🦯</span></td>
       <td><span class="n">👨🏼‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE: MEDIUM SKIN TONE</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨🏽‍🦯︎</span></td>
       <td><span class="n">👨🏽‍🦯</span></td>
       <td><span class="n">👨🏽‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨🏾‍🦯︎</span></td>
       <td><span class="n">👨🏾‍🦯</span></td>
       <td><span class="n">👨🏾‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN WITH PROBING CANE: DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👨🏿‍🦯︎</span></td>
       <td><span class="n">👨🏿‍🦯</span></td>
       <td><span class="n">👨🏿‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE</td>
       <td>U+1F469<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩‍🦯︎</span></td>
       <td><span class="n">👩‍🦯</span></td>
       <td><span class="n">👩‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE: LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩🏻‍🦯︎</span></td>
       <td><span class="n">👩🏻‍🦯</span></td>
       <td><span class="n">👩🏻‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩🏼‍🦯︎</span></td>
       <td><span class="n">👩🏼‍🦯</span></td>
       <td><span class="n">👩🏼‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE: MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩🏽‍🦯︎</span></td>
       <td><span class="n">👩🏽‍🦯</span></td>
       <td><span class="n">👩🏽‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩🏾‍🦯︎</span></td>
       <td><span class="n">👩🏾‍🦯</span></td>
       <td><span class="n">👩🏾‍🦯️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN WITH PROBING CANE: DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9AF</td>
       <td><span class="n">👩🏿‍🦯︎</span></td>
       <td><span class="n">👩🏿‍🦯</span></td>
       <td><span class="n">👩🏿‍🦯️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR</td>
       <td>U+1F468<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨‍🦼︎</span></td>
       <td><span class="n">👨‍🦼</span></td>
       <td><span class="n">👨‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR: LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨🏻‍🦼︎</span></td>
       <td><span class="n">👨🏻‍🦼</span></td>
       <td><span class="n">👨🏻‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨🏼‍🦼︎</span></td>
       <td><span class="n">👨🏼‍🦼</span></td>
       <td><span class="n">👨🏼‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR: MEDIUM SKIN TONE</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨🏽‍🦼︎</span></td>
       <td><span class="n">👨🏽‍🦼</span></td>
       <td><span class="n">👨🏽‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨🏾‍🦼︎</span></td>
       <td><span class="n">👨🏾‍🦼</span></td>
       <td><span class="n">👨🏾‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MOTORIZED WHEELCHAIR: DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👨🏿‍🦼︎</span></td>
       <td><span class="n">👨🏿‍🦼</span></td>
       <td><span class="n">👨🏿‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR</td>
       <td>U+1F469<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩‍🦼︎</span></td>
       <td><span class="n">👩‍🦼</span></td>
       <td><span class="n">👩‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR: LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩🏻‍🦼︎</span></td>
       <td><span class="n">👩🏻‍🦼</span></td>
       <td><span class="n">👩🏻‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩🏼‍🦼︎</span></td>
       <td><span class="n">👩🏼‍🦼</span></td>
       <td><span class="n">👩🏼‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR: MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩🏽‍🦼︎</span></td>
       <td><span class="n">👩🏽‍🦼</span></td>
       <td><span class="n">👩🏽‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩🏾‍🦼︎</span></td>
       <td><span class="n">👩🏾‍🦼</span></td>
       <td><span class="n">👩🏾‍🦼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MOTORIZED WHEELCHAIR: DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9BC</td>
       <td><span class="n">👩🏿‍🦼︎</span></td>
       <td><span class="n">👩🏿‍🦼</span></td>
       <td><span class="n">👩🏿‍🦼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR</td>
       <td>U+1F468<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨‍🦽︎</span></td>
       <td><span class="n">👨‍🦽</span></td>
       <td><span class="n">👨‍🦽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR: LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FB<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨🏻‍🦽︎</span></td>
       <td><span class="n">👨🏻‍🦽</span></td>
       <td><span class="n">👨🏻‍🦽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨🏼‍🦽︎</span></td>
       <td><span class="n">👨🏼‍🦽</span></td>
       <td><span class="n">👨🏼‍🦽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR: MEDIUM SKIN TONE</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨🏽‍🦽︎</span></td>
       <td><span class="n">👨🏽‍🦽</span></td>
       <td><span class="n">👨🏽‍🦽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨🏾‍🦽︎</span></td>
       <td><span class="n">👨🏾‍🦽</span></td>
       <td><span class="n">👨🏾‍🦽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MAN IN MANUAL WHEELCHAIR: DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👨🏿‍🦽︎</span></td>
       <td><span class="n">👨🏿‍🦽</span></td>
       <td><span class="n">👨🏿‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR</td>
       <td>U+1F469<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩‍🦽︎</span></td>
       <td><span class="n">👩‍🦽</span></td>
       <td><span class="n">👩‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR: LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩🏻‍🦽︎</span></td>
       <td><span class="n">👩🏻‍🦽</span></td>
       <td><span class="n">👩🏻‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩🏼‍🦽︎</span></td>
       <td><span class="n">👩🏼‍🦽</span></td>
       <td><span class="n">👩🏼‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR: MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩🏽‍🦽︎</span></td>
       <td><span class="n">👩🏽‍🦽</span></td>
       <td><span class="n">👩🏽‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩🏾‍🦽︎</span></td>
       <td><span class="n">👩🏾‍🦽</span></td>
       <td><span class="n">👩🏾‍🦽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN IN MANUAL WHEELCHAIR: DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F9BD</td>
       <td><span class="n">👩🏿‍🦽︎</span></td>
       <td><span class="n">👩🏿‍🦽</span></td>
@@ -11022,7 +11022,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🤸🏿‍♀️</span></td>
     </tr>
     <tr>
-      <td>WRESTLERS</td>
+      <td>PEOPLE WRESTLING</td>
       <td>U+1F93C</td>
       <td><span class="n">🤼︎</span></td>
       <td><span class="n">🤼</span></td>
@@ -11589,7 +11589,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛀🏿️</span></td>
     </tr>
     <tr>
-      <td>SLEEPING ACCOMMODATION</td>
+      <td>PERSON IN BED</td>
       <td>U+1F6CC</td>
       <td><span class="n">🛌︎</span></td>
       <td><span class="n">🛌</span></td>
@@ -11631,112 +11631,112 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛌🏿️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS</td>
       <td>U+1F9D1<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1</td>
       <td><span class="n">🧑‍🤝‍🧑︎</span></td>
       <td><span class="n">🧑‍🤝‍🧑</span></td>
       <td><span class="n">🧑‍🤝‍🧑️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FB<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏻‍🤝‍🧑🏻︎</span></td>
       <td><span class="n">🧑🏻‍🤝‍🧑🏻</span></td>
       <td><span class="n">🧑🏻‍🤝‍🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏻︎</span></td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏻</span></td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FC</td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏼︎</span></td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏼</span></td>
       <td><span class="n">🧑🏼‍🤝‍🧑🏼️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏻︎</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏻</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FC</td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏼︎</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏼</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏼️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FD</td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏽︎</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏽</span></td>
       <td><span class="n">🧑🏽‍🤝‍🧑🏽️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏻︎</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏻</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FC</td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏼︎</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏼</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏼️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FD</td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏽︎</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏽</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏽️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FE</td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏾︎</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏾</span></td>
       <td><span class="n">🧑🏾‍🤝‍🧑🏾️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FB</td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏻︎</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏻</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏻️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FC</td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏼︎</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏼</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏼️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FD</td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏽︎</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏽</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏽️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: DARK SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FE</td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏾︎</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏾</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏾️</span></td>
     </tr>
     <tr>
-      <td>ADULT</td>
+      <td>PEOPLE HOLDING HANDS: DARK SKIN TONE</td>
       <td>U+1F9D1<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F9D1<br />U+1F3FF</td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏿︎</span></td>
       <td><span class="n">🧑🏿‍🤝‍🧑🏿</span></td>
@@ -11750,105 +11750,105 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👭️</span></td>
     </tr>
     <tr>
-      <td>TWO WOMEN HOLDING HANDS</td>
+      <td>WOMEN HOLDING HANDS: LIGHT SKIN TONE</td>
       <td>U+1F46D<br />U+1F3FB</td>
       <td><span class="n">👭🏻︎</span></td>
       <td><span class="n">👭🏻</span></td>
       <td><span class="n">👭🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FB</td>
       <td><span class="n">👩🏼‍🤝‍👩🏻︎</span></td>
       <td><span class="n">👩🏼‍🤝‍👩🏻</span></td>
       <td><span class="n">👩🏼‍🤝‍👩🏻️</span></td>
     </tr>
     <tr>
-      <td>TWO WOMEN HOLDING HANDS</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F46D<br />U+1F3FC</td>
       <td><span class="n">👭🏼︎</span></td>
       <td><span class="n">👭🏼</span></td>
       <td><span class="n">👭🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FB</td>
       <td><span class="n">👩🏽‍🤝‍👩🏻︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👩🏻</span></td>
       <td><span class="n">👩🏽‍🤝‍👩🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FC</td>
       <td><span class="n">👩🏽‍🤝‍👩🏼︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👩🏼</span></td>
       <td><span class="n">👩🏽‍🤝‍👩🏼️</span></td>
     </tr>
     <tr>
-      <td>TWO WOMEN HOLDING HANDS</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM SKIN TONE</td>
       <td>U+1F46D<br />U+1F3FD</td>
       <td><span class="n">👭🏽︎</span></td>
       <td><span class="n">👭🏽</span></td>
       <td><span class="n">👭🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FB</td>
       <td><span class="n">👩🏾‍🤝‍👩🏻︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏻</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FC</td>
       <td><span class="n">👩🏾‍🤝‍👩🏼︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏼</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FD</td>
       <td><span class="n">👩🏾‍🤝‍👩🏽︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏽</span></td>
       <td><span class="n">👩🏾‍🤝‍👩🏽️</span></td>
     </tr>
     <tr>
-      <td>TWO WOMEN HOLDING HANDS</td>
+      <td>WOMEN HOLDING HANDS: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F46D<br />U+1F3FE</td>
       <td><span class="n">👭🏾︎</span></td>
       <td><span class="n">👭🏾</span></td>
       <td><span class="n">👭🏾️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FB</td>
       <td><span class="n">👩🏿‍🤝‍👩🏻︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏻</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FC</td>
       <td><span class="n">👩🏿‍🤝‍👩🏼︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏼</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FD</td>
       <td><span class="n">👩🏿‍🤝‍👩🏽︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏽</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMEN HOLDING HANDS: DARK SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F469<br />U+1F3FE</td>
       <td><span class="n">👩🏿‍🤝‍👩🏾︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏾</span></td>
       <td><span class="n">👩🏿‍🤝‍👩🏾️</span></td>
     </tr>
     <tr>
-      <td>TWO WOMEN HOLDING HANDS</td>
+      <td>WOMEN HOLDING HANDS: DARK SKIN TONE</td>
       <td>U+1F46D<br />U+1F3FF</td>
       <td><span class="n">👭🏿︎</span></td>
       <td><span class="n">👭🏿</span></td>
@@ -11862,175 +11862,175 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👫️</span></td>
     </tr>
     <tr>
-      <td>MAN AND WOMAN HOLDING HANDS</td>
+      <td>WOMAN AND MAN HOLDING HANDS: LIGHT SKIN TONE</td>
       <td>U+1F46B<br />U+1F3FB</td>
       <td><span class="n">👫🏻︎</span></td>
       <td><span class="n">👫🏻</span></td>
       <td><span class="n">👫🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: LIGHT SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👩🏻‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏼</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: LIGHT SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👩🏻‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏽</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FE</td>
       <td><span class="n">👩🏻‍🤝‍👨🏾︎</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏾</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏾️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: LIGHT SKIN TONE, DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FB<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FF</td>
       <td><span class="n">👩🏻‍🤝‍👨🏿︎</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏿</span></td>
       <td><span class="n">👩🏻‍🤝‍👨🏿️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👩🏼‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏻</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>MAN AND WOMAN HOLDING HANDS</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F46B<br />U+1F3FC</td>
       <td><span class="n">👫🏼︎</span></td>
       <td><span class="n">👫🏼</span></td>
       <td><span class="n">👫🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👩🏼‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏽</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FE</td>
       <td><span class="n">👩🏼‍🤝‍👨🏾︎</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏾</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏾️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FF</td>
       <td><span class="n">👩🏼‍🤝‍👨🏿︎</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏿</span></td>
       <td><span class="n">👩🏼‍🤝‍👨🏿️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👩🏽‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏻</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👩🏽‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏼</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>MAN AND WOMAN HOLDING HANDS</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM SKIN TONE</td>
       <td>U+1F46B<br />U+1F3FD</td>
       <td><span class="n">👫🏽︎</span></td>
       <td><span class="n">👫🏽</span></td>
       <td><span class="n">👫🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FE</td>
       <td><span class="n">👩🏽‍🤝‍👨🏾︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏾</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏾️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM SKIN TONE, DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FF</td>
       <td><span class="n">👩🏽‍🤝‍👨🏿︎</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏿</span></td>
       <td><span class="n">👩🏽‍🤝‍👨🏿️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👩🏾‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏻</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👩🏾‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏼</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👩🏾‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏽</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>MAN AND WOMAN HOLDING HANDS</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F46B<br />U+1F3FE</td>
       <td><span class="n">👫🏾︎</span></td>
       <td><span class="n">👫🏾</span></td>
       <td><span class="n">👫🏾️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: MEDIUM-DARK SKIN TONE, DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FF</td>
       <td><span class="n">👩🏾‍🤝‍👨🏿︎</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏿</span></td>
       <td><span class="n">👩🏾‍🤝‍👨🏿️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👩🏿‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏻</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👩🏿‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏼</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👩🏿‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏽</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>WOMAN</td>
+      <td>WOMAN AND MAN HOLDING HANDS: DARK SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F469<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FE</td>
       <td><span class="n">👩🏿‍🤝‍👨🏾︎</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏾</span></td>
       <td><span class="n">👩🏿‍🤝‍👨🏾️</span></td>
     </tr>
     <tr>
-      <td>MAN AND WOMAN HOLDING HANDS</td>
+      <td>WOMAN AND MAN HOLDING HANDS: DARK SKIN TONE</td>
       <td>U+1F46B<br />U+1F3FF</td>
       <td><span class="n">👫🏿︎</span></td>
       <td><span class="n">👫🏿</span></td>
@@ -12044,105 +12044,105 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👬️</span></td>
     </tr>
     <tr>
-      <td>TWO MEN HOLDING HANDS</td>
+      <td>MEN HOLDING HANDS: LIGHT SKIN TONE</td>
       <td>U+1F46C<br />U+1F3FB</td>
       <td><span class="n">👬🏻︎</span></td>
       <td><span class="n">👬🏻</span></td>
       <td><span class="n">👬🏻️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FC<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👨🏼‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👨🏼‍🤝‍👨🏻</span></td>
       <td><span class="n">👨🏼‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>TWO MEN HOLDING HANDS</td>
+      <td>MEN HOLDING HANDS: MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F46C<br />U+1F3FC</td>
       <td><span class="n">👬🏼︎</span></td>
       <td><span class="n">👬🏼</span></td>
       <td><span class="n">👬🏼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👨🏽‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👨🏽‍🤝‍👨🏻</span></td>
       <td><span class="n">👨🏽‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FD<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👨🏽‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👨🏽‍🤝‍👨🏼</span></td>
       <td><span class="n">👨🏽‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>TWO MEN HOLDING HANDS</td>
+      <td>MEN HOLDING HANDS: MEDIUM SKIN TONE</td>
       <td>U+1F46C<br />U+1F3FD</td>
       <td><span class="n">👬🏽︎</span></td>
       <td><span class="n">👬🏽</span></td>
       <td><span class="n">👬🏽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👨🏾‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏻</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👨🏾‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏼</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: MEDIUM-DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F468<br />U+1F3FE<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👨🏾‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏽</span></td>
       <td><span class="n">👨🏾‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>TWO MEN HOLDING HANDS</td>
+      <td>MEN HOLDING HANDS: MEDIUM-DARK SKIN TONE</td>
       <td>U+1F46C<br />U+1F3FE</td>
       <td><span class="n">👬🏾︎</span></td>
       <td><span class="n">👬🏾</span></td>
       <td><span class="n">👬🏾️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: DARK SKIN TONE, LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FB</td>
       <td><span class="n">👨🏿‍🤝‍👨🏻︎</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏻</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏻️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: DARK SKIN TONE, MEDIUM-LIGHT SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FC</td>
       <td><span class="n">👨🏿‍🤝‍👨🏼︎</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏼</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏼️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: DARK SKIN TONE, MEDIUM SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FD</td>
       <td><span class="n">👨🏿‍🤝‍👨🏽︎</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏽</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏽️</span></td>
     </tr>
     <tr>
-      <td>MAN</td>
+      <td>MEN HOLDING HANDS: DARK SKIN TONE, MEDIUM-DARK SKIN TONE</td>
       <td>U+1F468<br />U+1F3FF<br />U+200D<br />U+1F91D<br />U+200D<br />U+1F468<br />U+1F3FE</td>
       <td><span class="n">👨🏿‍🤝‍👨🏾︎</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏾</span></td>
       <td><span class="n">👨🏿‍🤝‍👨🏾️</span></td>
     </tr>
     <tr>
-      <td>TWO MEN HOLDING HANDS</td>
+      <td>MEN HOLDING HANDS: DARK SKIN TONE</td>
       <td>U+1F46C<br />U+1F3FF</td>
       <td><span class="n">👬🏿︎</span></td>
       <td><span class="n">👬🏿</span></td>
@@ -12436,7 +12436,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🦍️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ORANGUTAN</td>
       <td>U+1F9A7</td>
       <td><span class="n">🦧︎</span></td>
       <td><span class="n">🦧</span></td>
@@ -12457,14 +12457,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🐕️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>GUIDE DOG</td>
       <td>U+1F9AE</td>
       <td><span class="n">🦮︎</span></td>
       <td><span class="n">🦮</span></td>
       <td><span class="n">🦮️</span></td>
     </tr>
     <tr>
-      <td>DOG</td>
+      <td>SERVICE DOG</td>
       <td>U+1F415<br />U+200D<br />U+1F9BA</td>
       <td><span class="n">🐕‍🦺︎</span></td>
       <td><span class="n">🐕‍🦺</span></td>
@@ -12674,7 +12674,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🦙️</span></td>
     </tr>
     <tr>
-      <td>GIRAFFE FACE</td>
+      <td>GIRAFFE</td>
       <td>U+1F992</td>
       <td><span class="n">🦒︎</span></td>
       <td><span class="n">🦒</span></td>
@@ -12786,21 +12786,21 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🐼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>SLOTH</td>
       <td>U+1F9A5</td>
       <td><span class="n">🦥︎</span></td>
       <td><span class="n">🦥</span></td>
       <td><span class="n">🦥️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>OTTER</td>
       <td>U+1F9A6</td>
       <td><span class="n">🦦︎</span></td>
       <td><span class="n">🦦</span></td>
       <td><span class="n">🦦️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>SKUNK</td>
       <td>U+1F9A8</td>
       <td><span class="n">🦨︎</span></td>
       <td><span class="n">🦨</span></td>
@@ -12919,7 +12919,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🦉️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>FLAMINGO</td>
       <td>U+1F9A9</td>
       <td><span class="n">🦩︎</span></td>
       <td><span class="n">🦩</span></td>
@@ -13486,14 +13486,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🥦️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>GARLIC</td>
       <td>U+1F9C4</td>
       <td><span class="n">🧄︎</span></td>
       <td><span class="n">🧄</span></td>
       <td><span class="n">🧄️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ONION</td>
       <td>U+1F9C5</td>
       <td><span class="n">🧅︎</span></td>
       <td><span class="n">🧅</span></td>
@@ -13563,7 +13563,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🥞️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>WAFFLE</td>
       <td>U+1F9C7</td>
       <td><span class="n">🧇︎</span></td>
       <td><span class="n">🧇</span></td>
@@ -13661,7 +13661,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🥙️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>FALAFEL</td>
       <td>U+1F9C6</td>
       <td><span class="n">🧆︎</span></td>
       <td><span class="n">🧆</span></td>
@@ -13717,7 +13717,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🍿️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BUTTER</td>
       <td>U+1F9C8</td>
       <td><span class="n">🧈︎</span></td>
       <td><span class="n">🧈</span></td>
@@ -13885,7 +13885,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🦑️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>OYSTER</td>
       <td>U+1F9AA</td>
       <td><span class="n">🦪︎</span></td>
       <td><span class="n">🦪</span></td>
@@ -14088,21 +14088,21 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🥤️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BEVERAGE BOX</td>
       <td>U+1F9C3</td>
       <td><span class="n">🧃︎</span></td>
       <td><span class="n">🧃</span></td>
       <td><span class="n">🧃️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>MATE DRINK</td>
       <td>U+1F9C9</td>
       <td><span class="n">🧉︎</span></td>
       <td><span class="n">🧉</span></td>
       <td><span class="n">🧉️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ICE CUBE</td>
       <td>U+1F9CA</td>
       <td><span class="n">🧊︎</span></td>
       <td><span class="n">🧊</span></td>
@@ -14305,7 +14305,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏚️</span></td>
     </tr>
     <tr>
-      <td>HOUSE BUILDING</td>
+      <td>HOUSE</td>
       <td>U+1F3E0</td>
       <td><span class="n">🏠︎</span></td>
       <td><span class="n">🏠</span></td>
@@ -14445,7 +14445,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🕌️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>HINDU TEMPLE</td>
       <td>U+1F6D5</td>
       <td><span class="n">🛕︎</span></td>
       <td><span class="n">🛕</span></td>
@@ -14802,21 +14802,21 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛵️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>MANUAL WHEELCHAIR</td>
       <td>U+1F9BD</td>
       <td><span class="n">🦽︎</span></td>
       <td><span class="n">🦽</span></td>
       <td><span class="n">🦽️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>MOTORIZED WHEELCHAIR</td>
       <td>U+1F9BC</td>
       <td><span class="n">🦼︎</span></td>
       <td><span class="n">🦼</span></td>
       <td><span class="n">🦼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>AUTO RICKSHAW</td>
       <td>U+1F6FA</td>
       <td><span class="n">🛺︎</span></td>
       <td><span class="n">🛺</span></td>
@@ -14830,7 +14830,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🚲️</span></td>
     </tr>
     <tr>
-      <td>SCOOTER</td>
+      <td>KICK SCOOTER</td>
       <td>U+1F6F4</td>
       <td><span class="n">🛴︎</span></td>
       <td><span class="n">🛴</span></td>
@@ -14900,7 +14900,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🚦️</span></td>
     </tr>
     <tr>
-      <td>OCTAGONAL SIGN</td>
+      <td>STOP SIGN</td>
       <td>U+1F6D1</td>
       <td><span class="n">🛑︎</span></td>
       <td><span class="n">🛑</span></td>
@@ -14998,7 +14998,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛬️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PARACHUTE</td>
       <td>U+1FA82</td>
       <td><span class="n">🪂︎</span></td>
       <td><span class="n">🪂</span></td>
@@ -15082,7 +15082,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⌛️</span></td>
     </tr>
     <tr>
-      <td>HOURGLASS WITH FLOWING SAND</td>
+      <td>HOURGLASS NOT DONE</td>
       <td>U+23F3</td>
       <td><span class="n">⏳︎</span></td>
       <td><span class="n">⏳</span></td>
@@ -15138,7 +15138,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🕧️</span></td>
     </tr>
     <tr>
-      <td>CLOCK FACE ONE OCLOCK</td>
+      <td>ONE O’CLOCK</td>
       <td>U+1F550</td>
       <td><span class="n">🕐︎</span></td>
       <td><span class="n">🕐</span></td>
@@ -15404,14 +15404,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🌞️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>RINGED PLANET</td>
       <td>U+1FA90</td>
       <td><span class="n">🪐︎</span></td>
       <td><span class="n">🪐</span></td>
       <td><span class="n">🪐️</span></td>
     </tr>
     <tr>
-      <td>WHITE MEDIUM STAR</td>
+      <td>STAR</td>
       <td>U+2B50</td>
       <td><span class="n">⭐︎</span></td>
       <td><span class="n">⭐</span></td>
@@ -15565,7 +15565,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⛱️</span></td>
     </tr>
     <tr>
-      <td>HIGH VOLTAGE SIGN</td>
+      <td>HIGH VOLTAGE</td>
       <td>U+26A1</td>
       <td><span class="n">⚡︎</span></td>
       <td><span class="n">⚡</span></td>
@@ -15726,7 +15726,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎑️</span></td>
     </tr>
     <tr>
-      <td>RED GIFT ENVELOPE</td>
+      <td>RED ENVELOPE</td>
       <td>U+1F9E7</td>
       <td><span class="n">🧧︎</span></td>
       <td><span class="n">🧧</span></td>
@@ -15789,7 +15789,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏅️</span></td>
     </tr>
     <tr>
-      <td>FIRST PLACE MEDAL</td>
+      <td>1ST PLACE MEDAL</td>
       <td>U+1F947</td>
       <td><span class="n">🥇︎</span></td>
       <td><span class="n">🥇</span></td>
@@ -15880,7 +15880,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎳️</span></td>
     </tr>
     <tr>
-      <td>CRICKET BAT AND BALL</td>
+      <td>CRICKET GAME</td>
       <td>U+1F3CF</td>
       <td><span class="n">🏏︎</span></td>
       <td><span class="n">🏏</span></td>
@@ -15901,7 +15901,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏒️</span></td>
     </tr>
     <tr>
-      <td>LACROSSE STICK AND BALL</td>
+      <td>LACROSSE</td>
       <td>U+1F94D</td>
       <td><span class="n">🥍︎</span></td>
       <td><span class="n">🥍</span></td>
@@ -15915,7 +15915,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏓️</span></td>
     </tr>
     <tr>
-      <td>BADMINTON RACQUET AND SHUTTLECOCK</td>
+      <td>BADMINTON</td>
       <td>U+1F3F8</td>
       <td><span class="n">🏸︎</span></td>
       <td><span class="n">🏸</span></td>
@@ -15964,7 +15964,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎣️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DIVING MASK</td>
       <td>U+1F93F</td>
       <td><span class="n">🤿︎</span></td>
       <td><span class="n">🤿</span></td>
@@ -16006,14 +16006,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎯️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>YO-YO</td>
       <td>U+1FA80</td>
       <td><span class="n">🪀︎</span></td>
       <td><span class="n">🪀</span></td>
       <td><span class="n">🪀️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>KITE</td>
       <td>U+1FA81</td>
       <td><span class="n">🪁︎</span></td>
       <td><span class="n">🪁</span></td>
@@ -16118,14 +16118,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">♟️</span></td>
     </tr>
     <tr>
-      <td>PLAYING CARD BLACK JOKER</td>
+      <td>JOKER</td>
       <td>U+1F0CF</td>
       <td><span class="n">🃏︎</span></td>
       <td><span class="n">🃏</span></td>
       <td><span class="n">🃏️</span></td>
     </tr>
     <tr>
-      <td>MAHJONG TILE RED DRAGON</td>
+      <td>MAHJONG RED DRAGON</td>
       <td>U+1F004</td>
       <td><span class="n">🀄︎</span></td>
       <td><span class="n">🀄</span></td>
@@ -16202,7 +16202,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🥼️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>SAFETY VEST</td>
       <td>U+1F9BA</td>
       <td><span class="n">🦺︎</span></td>
       <td><span class="n">🦺</span></td>
@@ -16272,28 +16272,28 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👘️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>SARI</td>
       <td>U+1F97B</td>
       <td><span class="n">🥻︎</span></td>
       <td><span class="n">🥻</span></td>
       <td><span class="n">🥻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ONE-PIECE SWIMSUIT</td>
       <td>U+1FA71</td>
       <td><span class="n">🩱︎</span></td>
       <td><span class="n">🩱</span></td>
       <td><span class="n">🩱️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BRIEFS</td>
       <td>U+1FA72</td>
       <td><span class="n">🩲︎</span></td>
       <td><span class="n">🩲</span></td>
       <td><span class="n">🩲️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>SHORTS</td>
       <td>U+1FA73</td>
       <td><span class="n">🩳︎</span></td>
       <td><span class="n">🩳</span></td>
@@ -16391,7 +16391,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">👡️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BALLET SHOES</td>
       <td>U+1FA70</td>
       <td><span class="n">🩰︎</span></td>
       <td><span class="n">🩰</span></td>
@@ -16636,7 +16636,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎻️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>BANJO</td>
       <td>U+1FA95</td>
       <td><span class="n">🪕︎</span></td>
       <td><span class="n">🪕</span></td>
@@ -16888,7 +16888,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏮️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DIYA LAMP</td>
       <td>U+1FA94</td>
       <td><span class="n">🪔︎</span></td>
       <td><span class="n">🪔</span></td>
@@ -17441,7 +17441,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🔨️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>AXE</td>
       <td>U+1FA93</td>
       <td><span class="n">🪓︎</span></td>
       <td><span class="n">🪓</span></td>
@@ -17539,7 +17539,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⚖️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>PROBING CANE</td>
       <td>U+1F9AF</td>
       <td><span class="n">🦯︎</span></td>
       <td><span class="n">🦯</span></td>
@@ -17630,7 +17630,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">💉️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>DROP OF BLOOD</td>
       <td>U+1FA78</td>
       <td><span class="n">🩸︎</span></td>
       <td><span class="n">🩸</span></td>
@@ -17644,14 +17644,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">💊️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ADHESIVE BANDAGE</td>
       <td>U+1FA79</td>
       <td><span class="n">🩹︎</span></td>
       <td><span class="n">🩹</span></td>
       <td><span class="n">🩹️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>STETHOSCOPE</td>
       <td>U+1FA7A</td>
       <td><span class="n">🩺︎</span></td>
       <td><span class="n">🩺</span></td>
@@ -17679,7 +17679,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛋️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>CHAIR</td>
       <td>U+1FA91</td>
       <td><span class="n">🪑︎</span></td>
       <td><span class="n">🪑</span></td>
@@ -17707,7 +17707,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🛁️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>RAZOR</td>
       <td>U+1FA92</td>
       <td><span class="n">🪒︎</span></td>
       <td><span class="n">🪒</span></td>
@@ -18309,7 +18309,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⛎️</span></td>
     </tr>
     <tr>
-      <td>TWISTED RIGHTWARDS ARROWS</td>
+      <td>SHUFFLE TRACKS BUTTON</td>
       <td>U+1F500</td>
       <td><span class="n">🔀︎</span></td>
       <td><span class="n">🔀</span></td>
@@ -18337,7 +18337,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">▶️</span></td>
     </tr>
     <tr>
-      <td>BLACK RIGHT-POINTING DOUBLE TRIANGLE</td>
+      <td>FAST-FORWARD BUTTON</td>
       <td>U+23E9</td>
       <td><span class="n">⏩︎</span></td>
       <td><span class="n">⏩</span></td>
@@ -18540,14 +18540,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🔰️</span></td>
     </tr>
     <tr>
-      <td>HEAVY LARGE CIRCLE</td>
+      <td>HOLLOW RED CIRCLE</td>
       <td>U+2B55</td>
       <td><span class="n">⭕︎</span></td>
       <td><span class="n">⭕</span></td>
       <td><span class="n">⭕️</span></td>
     </tr>
     <tr>
-      <td>WHITE HEAVY CHECK MARK</td>
+      <td>CHECK MARK BUTTON</td>
       <td>U+2705</td>
       <td><span class="n">✅︎</span></td>
       <td><span class="n">✅</span></td>
@@ -18582,14 +18582,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">❌️</span></td>
     </tr>
     <tr>
-      <td>NEGATIVE SQUARED CROSS MARK</td>
+      <td>CROSS MARK BUTTON</td>
       <td>U+274E</td>
       <td><span class="n">❎︎</span></td>
       <td><span class="n">❎</span></td>
       <td><span class="n">❎️</span></td>
     </tr>
     <tr>
-      <td>HEAVY PLUS SIGN</td>
+      <td>PLUS SIGN</td>
       <td>U+2795</td>
       <td><span class="n">➕︎</span></td>
       <td><span class="n">➕</span></td>
@@ -18666,7 +18666,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⁉️</span></td>
     </tr>
     <tr>
-      <td>BLACK QUESTION MARK ORNAMENT</td>
+      <td>QUESTION MARK</td>
       <td>U+2753</td>
       <td><span class="n">❓︎</span></td>
       <td><span class="n">❓</span></td>
@@ -18687,7 +18687,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">❕️</span></td>
     </tr>
     <tr>
-      <td>HEAVY EXCLAMATION MARK SYMBOL</td>
+      <td>EXCLAMATION MARK</td>
       <td>U+2757</td>
       <td><span class="n">❗︎</span></td>
       <td><span class="n">❗</span></td>
@@ -18855,7 +18855,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🅰️</span></td>
     </tr>
     <tr>
-      <td>NEGATIVE SQUARED AB</td>
+      <td>AB BUTTON (BLOOD TYPE)</td>
       <td>U+1F18E</td>
       <td><span class="n">🆎︎</span></td>
       <td><span class="n">🆎</span></td>
@@ -18869,7 +18869,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🅱️</span></td>
     </tr>
     <tr>
-      <td>SQUARED CL</td>
+      <td>CL BUTTON</td>
       <td>U+1F191</td>
       <td><span class="n">🆑︎</span></td>
       <td><span class="n">🆑</span></td>
@@ -18967,7 +18967,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🆚️</span></td>
     </tr>
     <tr>
-      <td>SQUARED KATAKANA KOKO</td>
+      <td>JAPANESE “HERE” BUTTON</td>
       <td>U+1F201</td>
       <td><span class="n">🈁︎</span></td>
       <td><span class="n">🈁</span></td>
@@ -18995,14 +18995,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🈶️</span></td>
     </tr>
     <tr>
-      <td>SQUARED CJK UNIFIED IDEOGRAPH-6307</td>
+      <td>JAPANESE “RESERVED” BUTTON</td>
       <td>U+1F22F</td>
       <td><span class="n">🈯︎</span></td>
       <td><span class="n">🈯</span></td>
       <td><span class="n">🈯️</span></td>
     </tr>
     <tr>
-      <td>CIRCLED IDEOGRAPH ADVANTAGE</td>
+      <td>JAPANESE “BARGAIN” BUTTON</td>
       <td>U+1F250</td>
       <td><span class="n">🉐︎</span></td>
       <td><span class="n">🉐</span></td>
@@ -19016,14 +19016,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🈹️</span></td>
     </tr>
     <tr>
-      <td>SQUARED CJK UNIFIED IDEOGRAPH-7121</td>
+      <td>JAPANESE “FREE OF CHARGE” BUTTON</td>
       <td>U+1F21A</td>
       <td><span class="n">🈚︎</span></td>
       <td><span class="n">🈚</span></td>
       <td><span class="n">🈚️</span></td>
     </tr>
     <tr>
-      <td>SQUARED CJK UNIFIED IDEOGRAPH-7981</td>
+      <td>JAPANESE “PROHIBITED” BUTTON</td>
       <td>U+1F232</td>
       <td><span class="n">🈲︎</span></td>
       <td><span class="n">🈲</span></td>
@@ -19037,7 +19037,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🉑️</span></td>
     </tr>
     <tr>
-      <td>SQUARED CJK UNIFIED IDEOGRAPH-7533</td>
+      <td>JAPANESE “APPLICATION” BUTTON</td>
       <td>U+1F238</td>
       <td><span class="n">🈸︎</span></td>
       <td><span class="n">🈸</span></td>
@@ -19093,21 +19093,21 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🔴️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>ORANGE CIRCLE</td>
       <td>U+1F7E0</td>
       <td><span class="n">🟠︎</span></td>
       <td><span class="n">🟠</span></td>
       <td><span class="n">🟠️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE YELLOW CIRCLE</td>
       <td>U+1F7E1</td>
       <td><span class="n">🟡︎</span></td>
       <td><span class="n">🟡</span></td>
       <td><span class="n">🟡️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE GREEN CIRCLE</td>
       <td>U+1F7E2</td>
       <td><span class="n">🟢︎</span></td>
       <td><span class="n">🟢</span></td>
@@ -19121,14 +19121,14 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🔵️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE PURPLE CIRCLE</td>
       <td>U+1F7E3</td>
       <td><span class="n">🟣︎</span></td>
       <td><span class="n">🟣</span></td>
       <td><span class="n">🟣️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE BROWN CIRCLE</td>
       <td>U+1F7E4</td>
       <td><span class="n">🟤︎</span></td>
       <td><span class="n">🟤</span></td>
@@ -19142,56 +19142,56 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">⚫️</span></td>
     </tr>
     <tr>
-      <td>MEDIUM WHITE CIRCLE</td>
+      <td>WHITE CIRCLE</td>
       <td>U+26AA</td>
       <td><span class="n">⚪︎</span></td>
       <td><span class="n">⚪</span></td>
       <td><span class="n">⚪️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE RED SQUARE</td>
       <td>U+1F7E5</td>
       <td><span class="n">🟥︎</span></td>
       <td><span class="n">🟥</span></td>
       <td><span class="n">🟥️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE ORANGE SQUARE</td>
       <td>U+1F7E7</td>
       <td><span class="n">🟧︎</span></td>
       <td><span class="n">🟧</span></td>
       <td><span class="n">🟧️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE YELLOW SQUARE</td>
       <td>U+1F7E8</td>
       <td><span class="n">🟨︎</span></td>
       <td><span class="n">🟨</span></td>
       <td><span class="n">🟨️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE GREEN SQUARE</td>
       <td>U+1F7E9</td>
       <td><span class="n">🟩︎</span></td>
       <td><span class="n">🟩</span></td>
       <td><span class="n">🟩️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE BLUE SQUARE</td>
       <td>U+1F7E6</td>
       <td><span class="n">🟦︎</span></td>
       <td><span class="n">🟦</span></td>
       <td><span class="n">🟦️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE PURPLE SQUARE</td>
       <td>U+1F7EA</td>
       <td><span class="n">🟪︎</span></td>
       <td><span class="n">🟪</span></td>
       <td><span class="n">🟪️</span></td>
     </tr>
     <tr>
-      <td> </td>
+      <td>LARGE BROWN SQUARE</td>
       <td>U+1F7EB</td>
       <td><span class="n">🟫︎</span></td>
       <td><span class="n">🟫</span></td>
@@ -19233,7 +19233,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">◾️</span></td>
     </tr>
     <tr>
-      <td>WHITE MEDIUM SMALL SQUARE</td>
+      <td>WHITE MEDIUM-SMALL SQUARE</td>
       <td>U+25FD</td>
       <td><span class="n">◽︎</span></td>
       <td><span class="n">◽</span></td>
@@ -19345,7 +19345,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🎌️</span></td>
     </tr>
     <tr>
-      <td>WAVING BLACK FLAG</td>
+      <td>BLACK FLAG</td>
       <td>U+1F3F4</td>
       <td><span class="n">🏴︎</span></td>
       <td><span class="n">🏴</span></td>
@@ -19373,1827 +19373,1827 @@ document.addEventListener('DOMContentLoaded', registerScroll)
       <td><span class="n">🏴‍☠️</span></td>
     </tr>
     <tr>
-      <td>ASCENSION ISLAND</td>
+      <td>FLAG: ASCENSION ISLAND</td>
       <td>U+1F1E6<br />U+1F1E8</td>
       <td><span class="n">🇦🇨︎</span></td>
       <td><span class="n">🇦🇨</span></td>
       <td><span class="n">🇦🇨️</span></td>
     </tr>
     <tr>
-      <td>ANDORRA</td>
+      <td>FLAG: ANDORRA</td>
       <td>U+1F1E6<br />U+1F1E9</td>
       <td><span class="n">🇦🇩︎</span></td>
       <td><span class="n">🇦🇩</span></td>
       <td><span class="n">🇦🇩️</span></td>
     </tr>
     <tr>
-      <td>UNITED ARAB EMIRATES</td>
+      <td>FLAG: UNITED ARAB EMIRATES</td>
       <td>U+1F1E6<br />U+1F1EA</td>
       <td><span class="n">🇦🇪︎</span></td>
       <td><span class="n">🇦🇪</span></td>
       <td><span class="n">🇦🇪️</span></td>
     </tr>
     <tr>
-      <td>AFGHANISTAN</td>
+      <td>FLAG: AFGHANISTAN</td>
       <td>U+1F1E6<br />U+1F1EB</td>
       <td><span class="n">🇦🇫︎</span></td>
       <td><span class="n">🇦🇫</span></td>
       <td><span class="n">🇦🇫️</span></td>
     </tr>
     <tr>
-      <td>ANTIGUA &amp; BARBUDA</td>
+      <td>FLAG: ANTIGUA &amp; BARBUDA</td>
       <td>U+1F1E6<br />U+1F1EC</td>
       <td><span class="n">🇦🇬︎</span></td>
       <td><span class="n">🇦🇬</span></td>
       <td><span class="n">🇦🇬️</span></td>
     </tr>
     <tr>
-      <td>ANGUILLA</td>
+      <td>FLAG: ANGUILLA</td>
       <td>U+1F1E6<br />U+1F1EE</td>
       <td><span class="n">🇦🇮︎</span></td>
       <td><span class="n">🇦🇮</span></td>
       <td><span class="n">🇦🇮️</span></td>
     </tr>
     <tr>
-      <td>ALBANIA</td>
+      <td>FLAG: ALBANIA</td>
       <td>U+1F1E6<br />U+1F1F1</td>
       <td><span class="n">🇦🇱︎</span></td>
       <td><span class="n">🇦🇱</span></td>
       <td><span class="n">🇦🇱️</span></td>
     </tr>
     <tr>
-      <td>ARMENIA</td>
+      <td>FLAG: ARMENIA</td>
       <td>U+1F1E6<br />U+1F1F2</td>
       <td><span class="n">🇦🇲︎</span></td>
       <td><span class="n">🇦🇲</span></td>
       <td><span class="n">🇦🇲️</span></td>
     </tr>
     <tr>
-      <td>ANGOLA</td>
+      <td>FLAG: ANGOLA</td>
       <td>U+1F1E6<br />U+1F1F4</td>
       <td><span class="n">🇦🇴︎</span></td>
       <td><span class="n">🇦🇴</span></td>
       <td><span class="n">🇦🇴️</span></td>
     </tr>
     <tr>
-      <td>ANTARCTICA</td>
+      <td>FLAG: ANTARCTICA</td>
       <td>U+1F1E6<br />U+1F1F6</td>
       <td><span class="n">🇦🇶︎</span></td>
       <td><span class="n">🇦🇶</span></td>
       <td><span class="n">🇦🇶️</span></td>
     </tr>
     <tr>
-      <td>ARGENTINA</td>
+      <td>FLAG: ARGENTINA</td>
       <td>U+1F1E6<br />U+1F1F7</td>
       <td><span class="n">🇦🇷︎</span></td>
       <td><span class="n">🇦🇷</span></td>
       <td><span class="n">🇦🇷️</span></td>
     </tr>
     <tr>
-      <td>AMERICAN SAMOA</td>
+      <td>FLAG: AMERICAN SAMOA</td>
       <td>U+1F1E6<br />U+1F1F8</td>
       <td><span class="n">🇦🇸︎</span></td>
       <td><span class="n">🇦🇸</span></td>
       <td><span class="n">🇦🇸️</span></td>
     </tr>
     <tr>
-      <td>AUSTRIA</td>
+      <td>FLAG: AUSTRIA</td>
       <td>U+1F1E6<br />U+1F1F9</td>
       <td><span class="n">🇦🇹︎</span></td>
       <td><span class="n">🇦🇹</span></td>
       <td><span class="n">🇦🇹️</span></td>
     </tr>
     <tr>
-      <td>AUSTRALIA</td>
+      <td>FLAG: AUSTRALIA</td>
       <td>U+1F1E6<br />U+1F1FA</td>
       <td><span class="n">🇦🇺︎</span></td>
       <td><span class="n">🇦🇺</span></td>
       <td><span class="n">🇦🇺️</span></td>
     </tr>
     <tr>
-      <td>ARUBA</td>
+      <td>FLAG: ARUBA</td>
       <td>U+1F1E6<br />U+1F1FC</td>
       <td><span class="n">🇦🇼︎</span></td>
       <td><span class="n">🇦🇼</span></td>
       <td><span class="n">🇦🇼️</span></td>
     </tr>
     <tr>
-      <td>ÅLAND ISLANDS</td>
+      <td>FLAG: ÅLAND ISLANDS</td>
       <td>U+1F1E6<br />U+1F1FD</td>
       <td><span class="n">🇦🇽︎</span></td>
       <td><span class="n">🇦🇽</span></td>
       <td><span class="n">🇦🇽️</span></td>
     </tr>
     <tr>
-      <td>AZERBAIJAN</td>
+      <td>FLAG: AZERBAIJAN</td>
       <td>U+1F1E6<br />U+1F1FF</td>
       <td><span class="n">🇦🇿︎</span></td>
       <td><span class="n">🇦🇿</span></td>
       <td><span class="n">🇦🇿️</span></td>
     </tr>
     <tr>
-      <td>BOSNIA &amp; HERZEGOVINA</td>
+      <td>FLAG: BOSNIA &amp; HERZEGOVINA</td>
       <td>U+1F1E7<br />U+1F1E6</td>
       <td><span class="n">🇧🇦︎</span></td>
       <td><span class="n">🇧🇦</span></td>
       <td><span class="n">🇧🇦️</span></td>
     </tr>
     <tr>
-      <td>BARBADOS</td>
+      <td>FLAG: BARBADOS</td>
       <td>U+1F1E7<br />U+1F1E7</td>
       <td><span class="n">🇧🇧︎</span></td>
       <td><span class="n">🇧🇧</span></td>
       <td><span class="n">🇧🇧️</span></td>
     </tr>
     <tr>
-      <td>BANGLADESH</td>
+      <td>FLAG: BANGLADESH</td>
       <td>U+1F1E7<br />U+1F1E9</td>
       <td><span class="n">🇧🇩︎</span></td>
       <td><span class="n">🇧🇩</span></td>
       <td><span class="n">🇧🇩️</span></td>
     </tr>
     <tr>
-      <td>BELGIUM</td>
+      <td>FLAG: BELGIUM</td>
       <td>U+1F1E7<br />U+1F1EA</td>
       <td><span class="n">🇧🇪︎</span></td>
       <td><span class="n">🇧🇪</span></td>
       <td><span class="n">🇧🇪️</span></td>
     </tr>
     <tr>
-      <td>BURKINA FASO</td>
+      <td>FLAG: BURKINA FASO</td>
       <td>U+1F1E7<br />U+1F1EB</td>
       <td><span class="n">🇧🇫︎</span></td>
       <td><span class="n">🇧🇫</span></td>
       <td><span class="n">🇧🇫️</span></td>
     </tr>
     <tr>
-      <td>BULGARIA</td>
+      <td>FLAG: BULGARIA</td>
       <td>U+1F1E7<br />U+1F1EC</td>
       <td><span class="n">🇧🇬︎</span></td>
       <td><span class="n">🇧🇬</span></td>
       <td><span class="n">🇧🇬️</span></td>
     </tr>
     <tr>
-      <td>BAHRAIN</td>
+      <td>FLAG: BAHRAIN</td>
       <td>U+1F1E7<br />U+1F1ED</td>
       <td><span class="n">🇧🇭︎</span></td>
       <td><span class="n">🇧🇭</span></td>
       <td><span class="n">🇧🇭️</span></td>
     </tr>
     <tr>
-      <td>BURUNDI</td>
+      <td>FLAG: BURUNDI</td>
       <td>U+1F1E7<br />U+1F1EE</td>
       <td><span class="n">🇧🇮︎</span></td>
       <td><span class="n">🇧🇮</span></td>
       <td><span class="n">🇧🇮️</span></td>
     </tr>
     <tr>
-      <td>BENIN</td>
+      <td>FLAG: BENIN</td>
       <td>U+1F1E7<br />U+1F1EF</td>
       <td><span class="n">🇧🇯︎</span></td>
       <td><span class="n">🇧🇯</span></td>
       <td><span class="n">🇧🇯️</span></td>
     </tr>
     <tr>
-      <td>ST. BARTHÉLEMY</td>
+      <td>FLAG: ST. BARTHÉLEMY</td>
       <td>U+1F1E7<br />U+1F1F1</td>
       <td><span class="n">🇧🇱︎</span></td>
       <td><span class="n">🇧🇱</span></td>
       <td><span class="n">🇧🇱️</span></td>
     </tr>
     <tr>
-      <td>BERMUDA</td>
+      <td>FLAG: BERMUDA</td>
       <td>U+1F1E7<br />U+1F1F2</td>
       <td><span class="n">🇧🇲︎</span></td>
       <td><span class="n">🇧🇲</span></td>
       <td><span class="n">🇧🇲️</span></td>
     </tr>
     <tr>
-      <td>BRUNEI</td>
+      <td>FLAG: BRUNEI</td>
       <td>U+1F1E7<br />U+1F1F3</td>
       <td><span class="n">🇧🇳︎</span></td>
       <td><span class="n">🇧🇳</span></td>
       <td><span class="n">🇧🇳️</span></td>
     </tr>
     <tr>
-      <td>BOLIVIA</td>
+      <td>FLAG: BOLIVIA</td>
       <td>U+1F1E7<br />U+1F1F4</td>
       <td><span class="n">🇧🇴︎</span></td>
       <td><span class="n">🇧🇴</span></td>
       <td><span class="n">🇧🇴️</span></td>
     </tr>
     <tr>
-      <td>CARIBBEAN NETHERLANDS</td>
+      <td>FLAG: CARIBBEAN NETHERLANDS</td>
       <td>U+1F1E7<br />U+1F1F6</td>
       <td><span class="n">🇧🇶︎</span></td>
       <td><span class="n">🇧🇶</span></td>
       <td><span class="n">🇧🇶️</span></td>
     </tr>
     <tr>
-      <td>BRAZIL</td>
+      <td>FLAG: BRAZIL</td>
       <td>U+1F1E7<br />U+1F1F7</td>
       <td><span class="n">🇧🇷︎</span></td>
       <td><span class="n">🇧🇷</span></td>
       <td><span class="n">🇧🇷️</span></td>
     </tr>
     <tr>
-      <td>BAHAMAS</td>
+      <td>FLAG: BAHAMAS</td>
       <td>U+1F1E7<br />U+1F1F8</td>
       <td><span class="n">🇧🇸︎</span></td>
       <td><span class="n">🇧🇸</span></td>
       <td><span class="n">🇧🇸️</span></td>
     </tr>
     <tr>
-      <td>BHUTAN</td>
+      <td>FLAG: BHUTAN</td>
       <td>U+1F1E7<br />U+1F1F9</td>
       <td><span class="n">🇧🇹︎</span></td>
       <td><span class="n">🇧🇹</span></td>
       <td><span class="n">🇧🇹️</span></td>
     </tr>
     <tr>
-      <td>BOUVET ISLAND</td>
+      <td>FLAG: BOUVET ISLAND</td>
       <td>U+1F1E7<br />U+1F1FB</td>
       <td><span class="n">🇧🇻︎</span></td>
       <td><span class="n">🇧🇻</span></td>
       <td><span class="n">🇧🇻️</span></td>
     </tr>
     <tr>
-      <td>BOTSWANA</td>
+      <td>FLAG: BOTSWANA</td>
       <td>U+1F1E7<br />U+1F1FC</td>
       <td><span class="n">🇧🇼︎</span></td>
       <td><span class="n">🇧🇼</span></td>
       <td><span class="n">🇧🇼️</span></td>
     </tr>
     <tr>
-      <td>BELARUS</td>
+      <td>FLAG: BELARUS</td>
       <td>U+1F1E7<br />U+1F1FE</td>
       <td><span class="n">🇧🇾︎</span></td>
       <td><span class="n">🇧🇾</span></td>
       <td><span class="n">🇧🇾️</span></td>
     </tr>
     <tr>
-      <td>BELIZE</td>
+      <td>FLAG: BELIZE</td>
       <td>U+1F1E7<br />U+1F1FF</td>
       <td><span class="n">🇧🇿︎</span></td>
       <td><span class="n">🇧🇿</span></td>
       <td><span class="n">🇧🇿️</span></td>
     </tr>
     <tr>
-      <td>CANADA</td>
+      <td>FLAG: CANADA</td>
       <td>U+1F1E8<br />U+1F1E6</td>
       <td><span class="n">🇨🇦︎</span></td>
       <td><span class="n">🇨🇦</span></td>
       <td><span class="n">🇨🇦️</span></td>
     </tr>
     <tr>
-      <td>COCOS (KEELING) ISLANDS</td>
+      <td>FLAG: COCOS (KEELING) ISLANDS</td>
       <td>U+1F1E8<br />U+1F1E8</td>
       <td><span class="n">🇨🇨︎</span></td>
       <td><span class="n">🇨🇨</span></td>
       <td><span class="n">🇨🇨️</span></td>
     </tr>
     <tr>
-      <td>CONGO - KINSHASA</td>
+      <td>FLAG: CONGO - KINSHASA</td>
       <td>U+1F1E8<br />U+1F1E9</td>
       <td><span class="n">🇨🇩︎</span></td>
       <td><span class="n">🇨🇩</span></td>
       <td><span class="n">🇨🇩️</span></td>
     </tr>
     <tr>
-      <td>CENTRAL AFRICAN REPUBLIC</td>
+      <td>FLAG: CENTRAL AFRICAN REPUBLIC</td>
       <td>U+1F1E8<br />U+1F1EB</td>
       <td><span class="n">🇨🇫︎</span></td>
       <td><span class="n">🇨🇫</span></td>
       <td><span class="n">🇨🇫️</span></td>
     </tr>
     <tr>
-      <td>CONGO - BRAZZAVILLE</td>
+      <td>FLAG: CONGO - BRAZZAVILLE</td>
       <td>U+1F1E8<br />U+1F1EC</td>
       <td><span class="n">🇨🇬︎</span></td>
       <td><span class="n">🇨🇬</span></td>
       <td><span class="n">🇨🇬️</span></td>
     </tr>
     <tr>
-      <td>SWITZERLAND</td>
+      <td>FLAG: SWITZERLAND</td>
       <td>U+1F1E8<br />U+1F1ED</td>
       <td><span class="n">🇨🇭︎</span></td>
       <td><span class="n">🇨🇭</span></td>
       <td><span class="n">🇨🇭️</span></td>
     </tr>
     <tr>
-      <td>CÔTE D’IVOIRE</td>
+      <td>FLAG: CÔTE D’IVOIRE</td>
       <td>U+1F1E8<br />U+1F1EE</td>
       <td><span class="n">🇨🇮︎</span></td>
       <td><span class="n">🇨🇮</span></td>
       <td><span class="n">🇨🇮️</span></td>
     </tr>
     <tr>
-      <td>COOK ISLANDS</td>
+      <td>FLAG: COOK ISLANDS</td>
       <td>U+1F1E8<br />U+1F1F0</td>
       <td><span class="n">🇨🇰︎</span></td>
       <td><span class="n">🇨🇰</span></td>
       <td><span class="n">🇨🇰️</span></td>
     </tr>
     <tr>
-      <td>CHILE</td>
+      <td>FLAG: CHILE</td>
       <td>U+1F1E8<br />U+1F1F1</td>
       <td><span class="n">🇨🇱︎</span></td>
       <td><span class="n">🇨🇱</span></td>
       <td><span class="n">🇨🇱️</span></td>
     </tr>
     <tr>
-      <td>CAMEROON</td>
+      <td>FLAG: CAMEROON</td>
       <td>U+1F1E8<br />U+1F1F2</td>
       <td><span class="n">🇨🇲︎</span></td>
       <td><span class="n">🇨🇲</span></td>
       <td><span class="n">🇨🇲️</span></td>
     </tr>
     <tr>
-      <td>CHINA</td>
+      <td>FLAG: CHINA</td>
       <td>U+1F1E8<br />U+1F1F3</td>
       <td><span class="n">🇨🇳︎</span></td>
       <td><span class="n">🇨🇳</span></td>
       <td><span class="n">🇨🇳️</span></td>
     </tr>
     <tr>
-      <td>COLOMBIA</td>
+      <td>FLAG: COLOMBIA</td>
       <td>U+1F1E8<br />U+1F1F4</td>
       <td><span class="n">🇨🇴︎</span></td>
       <td><span class="n">🇨🇴</span></td>
       <td><span class="n">🇨🇴️</span></td>
     </tr>
     <tr>
-      <td>CLIPPERTON ISLAND</td>
+      <td>FLAG: CLIPPERTON ISLAND</td>
       <td>U+1F1E8<br />U+1F1F5</td>
       <td><span class="n">🇨🇵︎</span></td>
       <td><span class="n">🇨🇵</span></td>
       <td><span class="n">🇨🇵️</span></td>
     </tr>
     <tr>
-      <td>COSTA RICA</td>
+      <td>FLAG: COSTA RICA</td>
       <td>U+1F1E8<br />U+1F1F7</td>
       <td><span class="n">🇨🇷︎</span></td>
       <td><span class="n">🇨🇷</span></td>
       <td><span class="n">🇨🇷️</span></td>
     </tr>
     <tr>
-      <td>CUBA</td>
+      <td>FLAG: CUBA</td>
       <td>U+1F1E8<br />U+1F1FA</td>
       <td><span class="n">🇨🇺︎</span></td>
       <td><span class="n">🇨🇺</span></td>
       <td><span class="n">🇨🇺️</span></td>
     </tr>
     <tr>
-      <td>CAPE VERDE</td>
+      <td>FLAG: CAPE VERDE</td>
       <td>U+1F1E8<br />U+1F1FB</td>
       <td><span class="n">🇨🇻︎</span></td>
       <td><span class="n">🇨🇻</span></td>
       <td><span class="n">🇨🇻️</span></td>
     </tr>
     <tr>
-      <td>CURAÇAO</td>
+      <td>FLAG: CURAÇAO</td>
       <td>U+1F1E8<br />U+1F1FC</td>
       <td><span class="n">🇨🇼︎</span></td>
       <td><span class="n">🇨🇼</span></td>
       <td><span class="n">🇨🇼️</span></td>
     </tr>
     <tr>
-      <td>CHRISTMAS ISLAND</td>
+      <td>FLAG: CHRISTMAS ISLAND</td>
       <td>U+1F1E8<br />U+1F1FD</td>
       <td><span class="n">🇨🇽︎</span></td>
       <td><span class="n">🇨🇽</span></td>
       <td><span class="n">🇨🇽️</span></td>
     </tr>
     <tr>
-      <td>CYPRUS</td>
+      <td>FLAG: CYPRUS</td>
       <td>U+1F1E8<br />U+1F1FE</td>
       <td><span class="n">🇨🇾︎</span></td>
       <td><span class="n">🇨🇾</span></td>
       <td><span class="n">🇨🇾️</span></td>
     </tr>
     <tr>
-      <td>CZECHIA</td>
+      <td>FLAG: CZECHIA</td>
       <td>U+1F1E8<br />U+1F1FF</td>
       <td><span class="n">🇨🇿︎</span></td>
       <td><span class="n">🇨🇿</span></td>
       <td><span class="n">🇨🇿️</span></td>
     </tr>
     <tr>
-      <td>GERMANY</td>
+      <td>FLAG: GERMANY</td>
       <td>U+1F1E9<br />U+1F1EA</td>
       <td><span class="n">🇩🇪︎</span></td>
       <td><span class="n">🇩🇪</span></td>
       <td><span class="n">🇩🇪️</span></td>
     </tr>
     <tr>
-      <td>DIEGO GARCIA</td>
+      <td>FLAG: DIEGO GARCIA</td>
       <td>U+1F1E9<br />U+1F1EC</td>
       <td><span class="n">🇩🇬︎</span></td>
       <td><span class="n">🇩🇬</span></td>
       <td><span class="n">🇩🇬️</span></td>
     </tr>
     <tr>
-      <td>DJIBOUTI</td>
+      <td>FLAG: DJIBOUTI</td>
       <td>U+1F1E9<br />U+1F1EF</td>
       <td><span class="n">🇩🇯︎</span></td>
       <td><span class="n">🇩🇯</span></td>
       <td><span class="n">🇩🇯️</span></td>
     </tr>
     <tr>
-      <td>DENMARK</td>
+      <td>FLAG: DENMARK</td>
       <td>U+1F1E9<br />U+1F1F0</td>
       <td><span class="n">🇩🇰︎</span></td>
       <td><span class="n">🇩🇰</span></td>
       <td><span class="n">🇩🇰️</span></td>
     </tr>
     <tr>
-      <td>DOMINICA</td>
+      <td>FLAG: DOMINICA</td>
       <td>U+1F1E9<br />U+1F1F2</td>
       <td><span class="n">🇩🇲︎</span></td>
       <td><span class="n">🇩🇲</span></td>
       <td><span class="n">🇩🇲️</span></td>
     </tr>
     <tr>
-      <td>DOMINICAN REPUBLIC</td>
+      <td>FLAG: DOMINICAN REPUBLIC</td>
       <td>U+1F1E9<br />U+1F1F4</td>
       <td><span class="n">🇩🇴︎</span></td>
       <td><span class="n">🇩🇴</span></td>
       <td><span class="n">🇩🇴️</span></td>
     </tr>
     <tr>
-      <td>ALGERIA</td>
+      <td>FLAG: ALGERIA</td>
       <td>U+1F1E9<br />U+1F1FF</td>
       <td><span class="n">🇩🇿︎</span></td>
       <td><span class="n">🇩🇿</span></td>
       <td><span class="n">🇩🇿️</span></td>
     </tr>
     <tr>
-      <td>CEUTA &amp; MELILLA</td>
+      <td>FLAG: CEUTA &amp; MELILLA</td>
       <td>U+1F1EA<br />U+1F1E6</td>
       <td><span class="n">🇪🇦︎</span></td>
       <td><span class="n">🇪🇦</span></td>
       <td><span class="n">🇪🇦️</span></td>
     </tr>
     <tr>
-      <td>ECUADOR</td>
+      <td>FLAG: ECUADOR</td>
       <td>U+1F1EA<br />U+1F1E8</td>
       <td><span class="n">🇪🇨︎</span></td>
       <td><span class="n">🇪🇨</span></td>
       <td><span class="n">🇪🇨️</span></td>
     </tr>
     <tr>
-      <td>ESTONIA</td>
+      <td>FLAG: ESTONIA</td>
       <td>U+1F1EA<br />U+1F1EA</td>
       <td><span class="n">🇪🇪︎</span></td>
       <td><span class="n">🇪🇪</span></td>
       <td><span class="n">🇪🇪️</span></td>
     </tr>
     <tr>
-      <td>EGYPT</td>
+      <td>FLAG: EGYPT</td>
       <td>U+1F1EA<br />U+1F1EC</td>
       <td><span class="n">🇪🇬︎</span></td>
       <td><span class="n">🇪🇬</span></td>
       <td><span class="n">🇪🇬️</span></td>
     </tr>
     <tr>
-      <td>WESTERN SAHARA</td>
+      <td>FLAG: WESTERN SAHARA</td>
       <td>U+1F1EA<br />U+1F1ED</td>
       <td><span class="n">🇪🇭︎</span></td>
       <td><span class="n">🇪🇭</span></td>
       <td><span class="n">🇪🇭️</span></td>
     </tr>
     <tr>
-      <td>ERITREA</td>
+      <td>FLAG: ERITREA</td>
       <td>U+1F1EA<br />U+1F1F7</td>
       <td><span class="n">🇪🇷︎</span></td>
       <td><span class="n">🇪🇷</span></td>
       <td><span class="n">🇪🇷️</span></td>
     </tr>
     <tr>
-      <td>SPAIN</td>
+      <td>FLAG: SPAIN</td>
       <td>U+1F1EA<br />U+1F1F8</td>
       <td><span class="n">🇪🇸︎</span></td>
       <td><span class="n">🇪🇸</span></td>
       <td><span class="n">🇪🇸️</span></td>
     </tr>
     <tr>
-      <td>ETHIOPIA</td>
+      <td>FLAG: ETHIOPIA</td>
       <td>U+1F1EA<br />U+1F1F9</td>
       <td><span class="n">🇪🇹︎</span></td>
       <td><span class="n">🇪🇹</span></td>
       <td><span class="n">🇪🇹️</span></td>
     </tr>
     <tr>
-      <td>EUROPEAN UNION</td>
+      <td>FLAG: EUROPEAN UNION</td>
       <td>U+1F1EA<br />U+1F1FA</td>
       <td><span class="n">🇪🇺︎</span></td>
       <td><span class="n">🇪🇺</span></td>
       <td><span class="n">🇪🇺️</span></td>
     </tr>
     <tr>
-      <td>FINLAND</td>
+      <td>FLAG: FINLAND</td>
       <td>U+1F1EB<br />U+1F1EE</td>
       <td><span class="n">🇫🇮︎</span></td>
       <td><span class="n">🇫🇮</span></td>
       <td><span class="n">🇫🇮️</span></td>
     </tr>
     <tr>
-      <td>FIJI</td>
+      <td>FLAG: FIJI</td>
       <td>U+1F1EB<br />U+1F1EF</td>
       <td><span class="n">🇫🇯︎</span></td>
       <td><span class="n">🇫🇯</span></td>
       <td><span class="n">🇫🇯️</span></td>
     </tr>
     <tr>
-      <td>FALKLAND ISLANDS</td>
+      <td>FLAG: FALKLAND ISLANDS</td>
       <td>U+1F1EB<br />U+1F1F0</td>
       <td><span class="n">🇫🇰︎</span></td>
       <td><span class="n">🇫🇰</span></td>
       <td><span class="n">🇫🇰️</span></td>
     </tr>
     <tr>
-      <td>MICRONESIA</td>
+      <td>FLAG: MICRONESIA</td>
       <td>U+1F1EB<br />U+1F1F2</td>
       <td><span class="n">🇫🇲︎</span></td>
       <td><span class="n">🇫🇲</span></td>
       <td><span class="n">🇫🇲️</span></td>
     </tr>
     <tr>
-      <td>FAROE ISLANDS</td>
+      <td>FLAG: FAROE ISLANDS</td>
       <td>U+1F1EB<br />U+1F1F4</td>
       <td><span class="n">🇫🇴︎</span></td>
       <td><span class="n">🇫🇴</span></td>
       <td><span class="n">🇫🇴️</span></td>
     </tr>
     <tr>
-      <td>FRANCE</td>
+      <td>FLAG: FRANCE</td>
       <td>U+1F1EB<br />U+1F1F7</td>
       <td><span class="n">🇫🇷︎</span></td>
       <td><span class="n">🇫🇷</span></td>
       <td><span class="n">🇫🇷️</span></td>
     </tr>
     <tr>
-      <td>GABON</td>
+      <td>FLAG: GABON</td>
       <td>U+1F1EC<br />U+1F1E6</td>
       <td><span class="n">🇬🇦︎</span></td>
       <td><span class="n">🇬🇦</span></td>
       <td><span class="n">🇬🇦️</span></td>
     </tr>
     <tr>
-      <td>UNITED KINGDOM</td>
+      <td>FLAG: UNITED KINGDOM</td>
       <td>U+1F1EC<br />U+1F1E7</td>
       <td><span class="n">🇬🇧︎</span></td>
       <td><span class="n">🇬🇧</span></td>
       <td><span class="n">🇬🇧️</span></td>
     </tr>
     <tr>
-      <td>GRENADA</td>
+      <td>FLAG: GRENADA</td>
       <td>U+1F1EC<br />U+1F1E9</td>
       <td><span class="n">🇬🇩︎</span></td>
       <td><span class="n">🇬🇩</span></td>
       <td><span class="n">🇬🇩️</span></td>
     </tr>
     <tr>
-      <td>GEORGIA</td>
+      <td>FLAG: GEORGIA</td>
       <td>U+1F1EC<br />U+1F1EA</td>
       <td><span class="n">🇬🇪︎</span></td>
       <td><span class="n">🇬🇪</span></td>
       <td><span class="n">🇬🇪️</span></td>
     </tr>
     <tr>
-      <td>FRENCH GUIANA</td>
+      <td>FLAG: FRENCH GUIANA</td>
       <td>U+1F1EC<br />U+1F1EB</td>
       <td><span class="n">🇬🇫︎</span></td>
       <td><span class="n">🇬🇫</span></td>
       <td><span class="n">🇬🇫️</span></td>
     </tr>
     <tr>
-      <td>GUERNSEY</td>
+      <td>FLAG: GUERNSEY</td>
       <td>U+1F1EC<br />U+1F1EC</td>
       <td><span class="n">🇬🇬︎</span></td>
       <td><span class="n">🇬🇬</span></td>
       <td><span class="n">🇬🇬️</span></td>
     </tr>
     <tr>
-      <td>GHANA</td>
+      <td>FLAG: GHANA</td>
       <td>U+1F1EC<br />U+1F1ED</td>
       <td><span class="n">🇬🇭︎</span></td>
       <td><span class="n">🇬🇭</span></td>
       <td><span class="n">🇬🇭️</span></td>
     </tr>
     <tr>
-      <td>GIBRALTAR</td>
+      <td>FLAG: GIBRALTAR</td>
       <td>U+1F1EC<br />U+1F1EE</td>
       <td><span class="n">🇬🇮︎</span></td>
       <td><span class="n">🇬🇮</span></td>
       <td><span class="n">🇬🇮️</span></td>
     </tr>
     <tr>
-      <td>GREENLAND</td>
+      <td>FLAG: GREENLAND</td>
       <td>U+1F1EC<br />U+1F1F1</td>
       <td><span class="n">🇬🇱︎</span></td>
       <td><span class="n">🇬🇱</span></td>
       <td><span class="n">🇬🇱️</span></td>
     </tr>
     <tr>
-      <td>GAMBIA</td>
+      <td>FLAG: GAMBIA</td>
       <td>U+1F1EC<br />U+1F1F2</td>
       <td><span class="n">🇬🇲︎</span></td>
       <td><span class="n">🇬🇲</span></td>
       <td><span class="n">🇬🇲️</span></td>
     </tr>
     <tr>
-      <td>GUINEA</td>
+      <td>FLAG: GUINEA</td>
       <td>U+1F1EC<br />U+1F1F3</td>
       <td><span class="n">🇬🇳︎</span></td>
       <td><span class="n">🇬🇳</span></td>
       <td><span class="n">🇬🇳️</span></td>
     </tr>
     <tr>
-      <td>GUADELOUPE</td>
+      <td>FLAG: GUADELOUPE</td>
       <td>U+1F1EC<br />U+1F1F5</td>
       <td><span class="n">🇬🇵︎</span></td>
       <td><span class="n">🇬🇵</span></td>
       <td><span class="n">🇬🇵️</span></td>
     </tr>
     <tr>
-      <td>EQUATORIAL GUINEA</td>
+      <td>FLAG: EQUATORIAL GUINEA</td>
       <td>U+1F1EC<br />U+1F1F6</td>
       <td><span class="n">🇬🇶︎</span></td>
       <td><span class="n">🇬🇶</span></td>
       <td><span class="n">🇬🇶️</span></td>
     </tr>
     <tr>
-      <td>GREECE</td>
+      <td>FLAG: GREECE</td>
       <td>U+1F1EC<br />U+1F1F7</td>
       <td><span class="n">🇬🇷︎</span></td>
       <td><span class="n">🇬🇷</span></td>
       <td><span class="n">🇬🇷️</span></td>
     </tr>
     <tr>
-      <td>SOUTH GEORGIA &amp; SOUTH SANDWICH ISLANDS</td>
+      <td>FLAG: SOUTH GEORGIA &amp; SOUTH SANDWICH ISLANDS</td>
       <td>U+1F1EC<br />U+1F1F8</td>
       <td><span class="n">🇬🇸︎</span></td>
       <td><span class="n">🇬🇸</span></td>
       <td><span class="n">🇬🇸️</span></td>
     </tr>
     <tr>
-      <td>GUATEMALA</td>
+      <td>FLAG: GUATEMALA</td>
       <td>U+1F1EC<br />U+1F1F9</td>
       <td><span class="n">🇬🇹︎</span></td>
       <td><span class="n">🇬🇹</span></td>
       <td><span class="n">🇬🇹️</span></td>
     </tr>
     <tr>
-      <td>GUAM</td>
+      <td>FLAG: GUAM</td>
       <td>U+1F1EC<br />U+1F1FA</td>
       <td><span class="n">🇬🇺︎</span></td>
       <td><span class="n">🇬🇺</span></td>
       <td><span class="n">🇬🇺️</span></td>
     </tr>
     <tr>
-      <td>GUINEA-BISSAU</td>
+      <td>FLAG: GUINEA-BISSAU</td>
       <td>U+1F1EC<br />U+1F1FC</td>
       <td><span class="n">🇬🇼︎</span></td>
       <td><span class="n">🇬🇼</span></td>
       <td><span class="n">🇬🇼️</span></td>
     </tr>
     <tr>
-      <td>GUYANA</td>
+      <td>FLAG: GUYANA</td>
       <td>U+1F1EC<br />U+1F1FE</td>
       <td><span class="n">🇬🇾︎</span></td>
       <td><span class="n">🇬🇾</span></td>
       <td><span class="n">🇬🇾️</span></td>
     </tr>
     <tr>
-      <td>HONG KONG SAR CHINA</td>
+      <td>FLAG: HONG KONG SAR CHINA</td>
       <td>U+1F1ED<br />U+1F1F0</td>
       <td><span class="n">🇭🇰︎</span></td>
       <td><span class="n">🇭🇰</span></td>
       <td><span class="n">🇭🇰️</span></td>
     </tr>
     <tr>
-      <td>HEARD &amp; MCDONALD ISLANDS</td>
+      <td>FLAG: HEARD &amp; MCDONALD ISLANDS</td>
       <td>U+1F1ED<br />U+1F1F2</td>
       <td><span class="n">🇭🇲︎</span></td>
       <td><span class="n">🇭🇲</span></td>
       <td><span class="n">🇭🇲️</span></td>
     </tr>
     <tr>
-      <td>HONDURAS</td>
+      <td>FLAG: HONDURAS</td>
       <td>U+1F1ED<br />U+1F1F3</td>
       <td><span class="n">🇭🇳︎</span></td>
       <td><span class="n">🇭🇳</span></td>
       <td><span class="n">🇭🇳️</span></td>
     </tr>
     <tr>
-      <td>CROATIA</td>
+      <td>FLAG: CROATIA</td>
       <td>U+1F1ED<br />U+1F1F7</td>
       <td><span class="n">🇭🇷︎</span></td>
       <td><span class="n">🇭🇷</span></td>
       <td><span class="n">🇭🇷️</span></td>
     </tr>
     <tr>
-      <td>HAITI</td>
+      <td>FLAG: HAITI</td>
       <td>U+1F1ED<br />U+1F1F9</td>
       <td><span class="n">🇭🇹︎</span></td>
       <td><span class="n">🇭🇹</span></td>
       <td><span class="n">🇭🇹️</span></td>
     </tr>
     <tr>
-      <td>HUNGARY</td>
+      <td>FLAG: HUNGARY</td>
       <td>U+1F1ED<br />U+1F1FA</td>
       <td><span class="n">🇭🇺︎</span></td>
       <td><span class="n">🇭🇺</span></td>
       <td><span class="n">🇭🇺️</span></td>
     </tr>
     <tr>
-      <td>CANARY ISLANDS</td>
+      <td>FLAG: CANARY ISLANDS</td>
       <td>U+1F1EE<br />U+1F1E8</td>
       <td><span class="n">🇮🇨︎</span></td>
       <td><span class="n">🇮🇨</span></td>
       <td><span class="n">🇮🇨️</span></td>
     </tr>
     <tr>
-      <td>INDONESIA</td>
+      <td>FLAG: INDONESIA</td>
       <td>U+1F1EE<br />U+1F1E9</td>
       <td><span class="n">🇮🇩︎</span></td>
       <td><span class="n">🇮🇩</span></td>
       <td><span class="n">🇮🇩️</span></td>
     </tr>
     <tr>
-      <td>IRELAND</td>
+      <td>FLAG: IRELAND</td>
       <td>U+1F1EE<br />U+1F1EA</td>
       <td><span class="n">🇮🇪︎</span></td>
       <td><span class="n">🇮🇪</span></td>
       <td><span class="n">🇮🇪️</span></td>
     </tr>
     <tr>
-      <td>ISRAEL</td>
+      <td>FLAG: ISRAEL</td>
       <td>U+1F1EE<br />U+1F1F1</td>
       <td><span class="n">🇮🇱︎</span></td>
       <td><span class="n">🇮🇱</span></td>
       <td><span class="n">🇮🇱️</span></td>
     </tr>
     <tr>
-      <td>ISLE OF MAN</td>
+      <td>FLAG: ISLE OF MAN</td>
       <td>U+1F1EE<br />U+1F1F2</td>
       <td><span class="n">🇮🇲︎</span></td>
       <td><span class="n">🇮🇲</span></td>
       <td><span class="n">🇮🇲️</span></td>
     </tr>
     <tr>
-      <td>INDIA</td>
+      <td>FLAG: INDIA</td>
       <td>U+1F1EE<br />U+1F1F3</td>
       <td><span class="n">🇮🇳︎</span></td>
       <td><span class="n">🇮🇳</span></td>
       <td><span class="n">🇮🇳️</span></td>
     </tr>
     <tr>
-      <td>BRITISH INDIAN OCEAN TERRITORY</td>
+      <td>FLAG: BRITISH INDIAN OCEAN TERRITORY</td>
       <td>U+1F1EE<br />U+1F1F4</td>
       <td><span class="n">🇮🇴︎</span></td>
       <td><span class="n">🇮🇴</span></td>
       <td><span class="n">🇮🇴️</span></td>
     </tr>
     <tr>
-      <td>IRAQ</td>
+      <td>FLAG: IRAQ</td>
       <td>U+1F1EE<br />U+1F1F6</td>
       <td><span class="n">🇮🇶︎</span></td>
       <td><span class="n">🇮🇶</span></td>
       <td><span class="n">🇮🇶️</span></td>
     </tr>
     <tr>
-      <td>IRAN</td>
+      <td>FLAG: IRAN</td>
       <td>U+1F1EE<br />U+1F1F7</td>
       <td><span class="n">🇮🇷︎</span></td>
       <td><span class="n">🇮🇷</span></td>
       <td><span class="n">🇮🇷️</span></td>
     </tr>
     <tr>
-      <td>ICELAND</td>
+      <td>FLAG: ICELAND</td>
       <td>U+1F1EE<br />U+1F1F8</td>
       <td><span class="n">🇮🇸︎</span></td>
       <td><span class="n">🇮🇸</span></td>
       <td><span class="n">🇮🇸️</span></td>
     </tr>
     <tr>
-      <td>ITALY</td>
+      <td>FLAG: ITALY</td>
       <td>U+1F1EE<br />U+1F1F9</td>
       <td><span class="n">🇮🇹︎</span></td>
       <td><span class="n">🇮🇹</span></td>
       <td><span class="n">🇮🇹️</span></td>
     </tr>
     <tr>
-      <td>JERSEY</td>
+      <td>FLAG: JERSEY</td>
       <td>U+1F1EF<br />U+1F1EA</td>
       <td><span class="n">🇯🇪︎</span></td>
       <td><span class="n">🇯🇪</span></td>
       <td><span class="n">🇯🇪️</span></td>
     </tr>
     <tr>
-      <td>JAMAICA</td>
+      <td>FLAG: JAMAICA</td>
       <td>U+1F1EF<br />U+1F1F2</td>
       <td><span class="n">🇯🇲︎</span></td>
       <td><span class="n">🇯🇲</span></td>
       <td><span class="n">🇯🇲️</span></td>
     </tr>
     <tr>
-      <td>JORDAN</td>
+      <td>FLAG: JORDAN</td>
       <td>U+1F1EF<br />U+1F1F4</td>
       <td><span class="n">🇯🇴︎</span></td>
       <td><span class="n">🇯🇴</span></td>
       <td><span class="n">🇯🇴️</span></td>
     </tr>
     <tr>
-      <td>JAPAN</td>
+      <td>FLAG: JAPAN</td>
       <td>U+1F1EF<br />U+1F1F5</td>
       <td><span class="n">🇯🇵︎</span></td>
       <td><span class="n">🇯🇵</span></td>
       <td><span class="n">🇯🇵️</span></td>
     </tr>
     <tr>
-      <td>KENYA</td>
+      <td>FLAG: KENYA</td>
       <td>U+1F1F0<br />U+1F1EA</td>
       <td><span class="n">🇰🇪︎</span></td>
       <td><span class="n">🇰🇪</span></td>
       <td><span class="n">🇰🇪️</span></td>
     </tr>
     <tr>
-      <td>KYRGYZSTAN</td>
+      <td>FLAG: KYRGYZSTAN</td>
       <td>U+1F1F0<br />U+1F1EC</td>
       <td><span class="n">🇰🇬︎</span></td>
       <td><span class="n">🇰🇬</span></td>
       <td><span class="n">🇰🇬️</span></td>
     </tr>
     <tr>
-      <td>CAMBODIA</td>
+      <td>FLAG: CAMBODIA</td>
       <td>U+1F1F0<br />U+1F1ED</td>
       <td><span class="n">🇰🇭︎</span></td>
       <td><span class="n">🇰🇭</span></td>
       <td><span class="n">🇰🇭️</span></td>
     </tr>
     <tr>
-      <td>KIRIBATI</td>
+      <td>FLAG: KIRIBATI</td>
       <td>U+1F1F0<br />U+1F1EE</td>
       <td><span class="n">🇰🇮︎</span></td>
       <td><span class="n">🇰🇮</span></td>
       <td><span class="n">🇰🇮️</span></td>
     </tr>
     <tr>
-      <td>COMOROS</td>
+      <td>FLAG: COMOROS</td>
       <td>U+1F1F0<br />U+1F1F2</td>
       <td><span class="n">🇰🇲︎</span></td>
       <td><span class="n">🇰🇲</span></td>
       <td><span class="n">🇰🇲️</span></td>
     </tr>
     <tr>
-      <td>ST. KITTS &amp; NEVIS</td>
+      <td>FLAG: ST. KITTS &amp; NEVIS</td>
       <td>U+1F1F0<br />U+1F1F3</td>
       <td><span class="n">🇰🇳︎</span></td>
       <td><span class="n">🇰🇳</span></td>
       <td><span class="n">🇰🇳️</span></td>
     </tr>
     <tr>
-      <td>NORTH KOREA</td>
+      <td>FLAG: NORTH KOREA</td>
       <td>U+1F1F0<br />U+1F1F5</td>
       <td><span class="n">🇰🇵︎</span></td>
       <td><span class="n">🇰🇵</span></td>
       <td><span class="n">🇰🇵️</span></td>
     </tr>
     <tr>
-      <td>SOUTH KOREA</td>
+      <td>FLAG: SOUTH KOREA</td>
       <td>U+1F1F0<br />U+1F1F7</td>
       <td><span class="n">🇰🇷︎</span></td>
       <td><span class="n">🇰🇷</span></td>
       <td><span class="n">🇰🇷️</span></td>
     </tr>
     <tr>
-      <td>KUWAIT</td>
+      <td>FLAG: KUWAIT</td>
       <td>U+1F1F0<br />U+1F1FC</td>
       <td><span class="n">🇰🇼︎</span></td>
       <td><span class="n">🇰🇼</span></td>
       <td><span class="n">🇰🇼️</span></td>
     </tr>
     <tr>
-      <td>CAYMAN ISLANDS</td>
+      <td>FLAG: CAYMAN ISLANDS</td>
       <td>U+1F1F0<br />U+1F1FE</td>
       <td><span class="n">🇰🇾︎</span></td>
       <td><span class="n">🇰🇾</span></td>
       <td><span class="n">🇰🇾️</span></td>
     </tr>
     <tr>
-      <td>KAZAKHSTAN</td>
+      <td>FLAG: KAZAKHSTAN</td>
       <td>U+1F1F0<br />U+1F1FF</td>
       <td><span class="n">🇰🇿︎</span></td>
       <td><span class="n">🇰🇿</span></td>
       <td><span class="n">🇰🇿️</span></td>
     </tr>
     <tr>
-      <td>LAOS</td>
+      <td>FLAG: LAOS</td>
       <td>U+1F1F1<br />U+1F1E6</td>
       <td><span class="n">🇱🇦︎</span></td>
       <td><span class="n">🇱🇦</span></td>
       <td><span class="n">🇱🇦️</span></td>
     </tr>
     <tr>
-      <td>LEBANON</td>
+      <td>FLAG: LEBANON</td>
       <td>U+1F1F1<br />U+1F1E7</td>
       <td><span class="n">🇱🇧︎</span></td>
       <td><span class="n">🇱🇧</span></td>
       <td><span class="n">🇱🇧️</span></td>
     </tr>
     <tr>
-      <td>ST. LUCIA</td>
+      <td>FLAG: ST. LUCIA</td>
       <td>U+1F1F1<br />U+1F1E8</td>
       <td><span class="n">🇱🇨︎</span></td>
       <td><span class="n">🇱🇨</span></td>
       <td><span class="n">🇱🇨️</span></td>
     </tr>
     <tr>
-      <td>LIECHTENSTEIN</td>
+      <td>FLAG: LIECHTENSTEIN</td>
       <td>U+1F1F1<br />U+1F1EE</td>
       <td><span class="n">🇱🇮︎</span></td>
       <td><span class="n">🇱🇮</span></td>
       <td><span class="n">🇱🇮️</span></td>
     </tr>
     <tr>
-      <td>SRI LANKA</td>
+      <td>FLAG: SRI LANKA</td>
       <td>U+1F1F1<br />U+1F1F0</td>
       <td><span class="n">🇱🇰︎</span></td>
       <td><span class="n">🇱🇰</span></td>
       <td><span class="n">🇱🇰️</span></td>
     </tr>
     <tr>
-      <td>LIBERIA</td>
+      <td>FLAG: LIBERIA</td>
       <td>U+1F1F1<br />U+1F1F7</td>
       <td><span class="n">🇱🇷︎</span></td>
       <td><span class="n">🇱🇷</span></td>
       <td><span class="n">🇱🇷️</span></td>
     </tr>
     <tr>
-      <td>LESOTHO</td>
+      <td>FLAG: LESOTHO</td>
       <td>U+1F1F1<br />U+1F1F8</td>
       <td><span class="n">🇱🇸︎</span></td>
       <td><span class="n">🇱🇸</span></td>
       <td><span class="n">🇱🇸️</span></td>
     </tr>
     <tr>
-      <td>LITHUANIA</td>
+      <td>FLAG: LITHUANIA</td>
       <td>U+1F1F1<br />U+1F1F9</td>
       <td><span class="n">🇱🇹︎</span></td>
       <td><span class="n">🇱🇹</span></td>
       <td><span class="n">🇱🇹️</span></td>
     </tr>
     <tr>
-      <td>LUXEMBOURG</td>
+      <td>FLAG: LUXEMBOURG</td>
       <td>U+1F1F1<br />U+1F1FA</td>
       <td><span class="n">🇱🇺︎</span></td>
       <td><span class="n">🇱🇺</span></td>
       <td><span class="n">🇱🇺️</span></td>
     </tr>
     <tr>
-      <td>LATVIA</td>
+      <td>FLAG: LATVIA</td>
       <td>U+1F1F1<br />U+1F1FB</td>
       <td><span class="n">🇱🇻︎</span></td>
       <td><span class="n">🇱🇻</span></td>
       <td><span class="n">🇱🇻️</span></td>
     </tr>
     <tr>
-      <td>LIBYA</td>
+      <td>FLAG: LIBYA</td>
       <td>U+1F1F1<br />U+1F1FE</td>
       <td><span class="n">🇱🇾︎</span></td>
       <td><span class="n">🇱🇾</span></td>
       <td><span class="n">🇱🇾️</span></td>
     </tr>
     <tr>
-      <td>MOROCCO</td>
+      <td>FLAG: MOROCCO</td>
       <td>U+1F1F2<br />U+1F1E6</td>
       <td><span class="n">🇲🇦︎</span></td>
       <td><span class="n">🇲🇦</span></td>
       <td><span class="n">🇲🇦️</span></td>
     </tr>
     <tr>
-      <td>MONACO</td>
+      <td>FLAG: MONACO</td>
       <td>U+1F1F2<br />U+1F1E8</td>
       <td><span class="n">🇲🇨︎</span></td>
       <td><span class="n">🇲🇨</span></td>
       <td><span class="n">🇲🇨️</span></td>
     </tr>
     <tr>
-      <td>MOLDOVA</td>
+      <td>FLAG: MOLDOVA</td>
       <td>U+1F1F2<br />U+1F1E9</td>
       <td><span class="n">🇲🇩︎</span></td>
       <td><span class="n">🇲🇩</span></td>
       <td><span class="n">🇲🇩️</span></td>
     </tr>
     <tr>
-      <td>MONTENEGRO</td>
+      <td>FLAG: MONTENEGRO</td>
       <td>U+1F1F2<br />U+1F1EA</td>
       <td><span class="n">🇲🇪︎</span></td>
       <td><span class="n">🇲🇪</span></td>
       <td><span class="n">🇲🇪️</span></td>
     </tr>
     <tr>
-      <td>ST. MARTIN</td>
+      <td>FLAG: ST. MARTIN</td>
       <td>U+1F1F2<br />U+1F1EB</td>
       <td><span class="n">🇲🇫︎</span></td>
       <td><span class="n">🇲🇫</span></td>
       <td><span class="n">🇲🇫️</span></td>
     </tr>
     <tr>
-      <td>MADAGASCAR</td>
+      <td>FLAG: MADAGASCAR</td>
       <td>U+1F1F2<br />U+1F1EC</td>
       <td><span class="n">🇲🇬︎</span></td>
       <td><span class="n">🇲🇬</span></td>
       <td><span class="n">🇲🇬️</span></td>
     </tr>
     <tr>
-      <td>MARSHALL ISLANDS</td>
+      <td>FLAG: MARSHALL ISLANDS</td>
       <td>U+1F1F2<br />U+1F1ED</td>
       <td><span class="n">🇲🇭︎</span></td>
       <td><span class="n">🇲🇭</span></td>
       <td><span class="n">🇲🇭️</span></td>
     </tr>
     <tr>
-      <td>MACEDONIA</td>
+      <td>FLAG: MACEDONIA</td>
       <td>U+1F1F2<br />U+1F1F0</td>
       <td><span class="n">🇲🇰︎</span></td>
       <td><span class="n">🇲🇰</span></td>
       <td><span class="n">🇲🇰️</span></td>
     </tr>
     <tr>
-      <td>MALI</td>
+      <td>FLAG: MALI</td>
       <td>U+1F1F2<br />U+1F1F1</td>
       <td><span class="n">🇲🇱︎</span></td>
       <td><span class="n">🇲🇱</span></td>
       <td><span class="n">🇲🇱️</span></td>
     </tr>
     <tr>
-      <td>MYANMAR (BURMA)</td>
+      <td>FLAG: MYANMAR (BURMA)</td>
       <td>U+1F1F2<br />U+1F1F2</td>
       <td><span class="n">🇲🇲︎</span></td>
       <td><span class="n">🇲🇲</span></td>
       <td><span class="n">🇲🇲️</span></td>
     </tr>
     <tr>
-      <td>MONGOLIA</td>
+      <td>FLAG: MONGOLIA</td>
       <td>U+1F1F2<br />U+1F1F3</td>
       <td><span class="n">🇲🇳︎</span></td>
       <td><span class="n">🇲🇳</span></td>
       <td><span class="n">🇲🇳️</span></td>
     </tr>
     <tr>
-      <td>MACAU SAR CHINA</td>
+      <td>FLAG: MACAO SAR CHINA</td>
       <td>U+1F1F2<br />U+1F1F4</td>
       <td><span class="n">🇲🇴︎</span></td>
       <td><span class="n">🇲🇴</span></td>
       <td><span class="n">🇲🇴️</span></td>
     </tr>
     <tr>
-      <td>NORTHERN MARIANA ISLANDS</td>
+      <td>FLAG: NORTHERN MARIANA ISLANDS</td>
       <td>U+1F1F2<br />U+1F1F5</td>
       <td><span class="n">🇲🇵︎</span></td>
       <td><span class="n">🇲🇵</span></td>
       <td><span class="n">🇲🇵️</span></td>
     </tr>
     <tr>
-      <td>MARTINIQUE</td>
+      <td>FLAG: MARTINIQUE</td>
       <td>U+1F1F2<br />U+1F1F6</td>
       <td><span class="n">🇲🇶︎</span></td>
       <td><span class="n">🇲🇶</span></td>
       <td><span class="n">🇲🇶️</span></td>
     </tr>
     <tr>
-      <td>MAURITANIA</td>
+      <td>FLAG: MAURITANIA</td>
       <td>U+1F1F2<br />U+1F1F7</td>
       <td><span class="n">🇲🇷︎</span></td>
       <td><span class="n">🇲🇷</span></td>
       <td><span class="n">🇲🇷️</span></td>
     </tr>
     <tr>
-      <td>MONTSERRAT</td>
+      <td>FLAG: MONTSERRAT</td>
       <td>U+1F1F2<br />U+1F1F8</td>
       <td><span class="n">🇲🇸︎</span></td>
       <td><span class="n">🇲🇸</span></td>
       <td><span class="n">🇲🇸️</span></td>
     </tr>
     <tr>
-      <td>MALTA</td>
+      <td>FLAG: MALTA</td>
       <td>U+1F1F2<br />U+1F1F9</td>
       <td><span class="n">🇲🇹︎</span></td>
       <td><span class="n">🇲🇹</span></td>
       <td><span class="n">🇲🇹️</span></td>
     </tr>
     <tr>
-      <td>MAURITIUS</td>
+      <td>FLAG: MAURITIUS</td>
       <td>U+1F1F2<br />U+1F1FA</td>
       <td><span class="n">🇲🇺︎</span></td>
       <td><span class="n">🇲🇺</span></td>
       <td><span class="n">🇲🇺️</span></td>
     </tr>
     <tr>
-      <td>MALDIVES</td>
+      <td>FLAG: MALDIVES</td>
       <td>U+1F1F2<br />U+1F1FB</td>
       <td><span class="n">🇲🇻︎</span></td>
       <td><span class="n">🇲🇻</span></td>
       <td><span class="n">🇲🇻️</span></td>
     </tr>
     <tr>
-      <td>MALAWI</td>
+      <td>FLAG: MALAWI</td>
       <td>U+1F1F2<br />U+1F1FC</td>
       <td><span class="n">🇲🇼︎</span></td>
       <td><span class="n">🇲🇼</span></td>
       <td><span class="n">🇲🇼️</span></td>
     </tr>
     <tr>
-      <td>MEXICO</td>
+      <td>FLAG: MEXICO</td>
       <td>U+1F1F2<br />U+1F1FD</td>
       <td><span class="n">🇲🇽︎</span></td>
       <td><span class="n">🇲🇽</span></td>
       <td><span class="n">🇲🇽️</span></td>
     </tr>
     <tr>
-      <td>MALAYSIA</td>
+      <td>FLAG: MALAYSIA</td>
       <td>U+1F1F2<br />U+1F1FE</td>
       <td><span class="n">🇲🇾︎</span></td>
       <td><span class="n">🇲🇾</span></td>
       <td><span class="n">🇲🇾️</span></td>
     </tr>
     <tr>
-      <td>MOZAMBIQUE</td>
+      <td>FLAG: MOZAMBIQUE</td>
       <td>U+1F1F2<br />U+1F1FF</td>
       <td><span class="n">🇲🇿︎</span></td>
       <td><span class="n">🇲🇿</span></td>
       <td><span class="n">🇲🇿️</span></td>
     </tr>
     <tr>
-      <td>NAMIBIA</td>
+      <td>FLAG: NAMIBIA</td>
       <td>U+1F1F3<br />U+1F1E6</td>
       <td><span class="n">🇳🇦︎</span></td>
       <td><span class="n">🇳🇦</span></td>
       <td><span class="n">🇳🇦️</span></td>
     </tr>
     <tr>
-      <td>NEW CALEDONIA</td>
+      <td>FLAG: NEW CALEDONIA</td>
       <td>U+1F1F3<br />U+1F1E8</td>
       <td><span class="n">🇳🇨︎</span></td>
       <td><span class="n">🇳🇨</span></td>
       <td><span class="n">🇳🇨️</span></td>
     </tr>
     <tr>
-      <td>NIGER</td>
+      <td>FLAG: NIGER</td>
       <td>U+1F1F3<br />U+1F1EA</td>
       <td><span class="n">🇳🇪︎</span></td>
       <td><span class="n">🇳🇪</span></td>
       <td><span class="n">🇳🇪️</span></td>
     </tr>
     <tr>
-      <td>NORFOLK ISLAND</td>
+      <td>FLAG: NORFOLK ISLAND</td>
       <td>U+1F1F3<br />U+1F1EB</td>
       <td><span class="n">🇳🇫︎</span></td>
       <td><span class="n">🇳🇫</span></td>
       <td><span class="n">🇳🇫️</span></td>
     </tr>
     <tr>
-      <td>NIGERIA</td>
+      <td>FLAG: NIGERIA</td>
       <td>U+1F1F3<br />U+1F1EC</td>
       <td><span class="n">🇳🇬︎</span></td>
       <td><span class="n">🇳🇬</span></td>
       <td><span class="n">🇳🇬️</span></td>
     </tr>
     <tr>
-      <td>NICARAGUA</td>
+      <td>FLAG: NICARAGUA</td>
       <td>U+1F1F3<br />U+1F1EE</td>
       <td><span class="n">🇳🇮︎</span></td>
       <td><span class="n">🇳🇮</span></td>
       <td><span class="n">🇳🇮️</span></td>
     </tr>
     <tr>
-      <td>NETHERLANDS</td>
+      <td>FLAG: NETHERLANDS</td>
       <td>U+1F1F3<br />U+1F1F1</td>
       <td><span class="n">🇳🇱︎</span></td>
       <td><span class="n">🇳🇱</span></td>
       <td><span class="n">🇳🇱️</span></td>
     </tr>
     <tr>
-      <td>NORWAY</td>
+      <td>FLAG: NORWAY</td>
       <td>U+1F1F3<br />U+1F1F4</td>
       <td><span class="n">🇳🇴︎</span></td>
       <td><span class="n">🇳🇴</span></td>
       <td><span class="n">🇳🇴️</span></td>
     </tr>
     <tr>
-      <td>NEPAL</td>
+      <td>FLAG: NEPAL</td>
       <td>U+1F1F3<br />U+1F1F5</td>
       <td><span class="n">🇳🇵︎</span></td>
       <td><span class="n">🇳🇵</span></td>
       <td><span class="n">🇳🇵️</span></td>
     </tr>
     <tr>
-      <td>NAURU</td>
+      <td>FLAG: NAURU</td>
       <td>U+1F1F3<br />U+1F1F7</td>
       <td><span class="n">🇳🇷︎</span></td>
       <td><span class="n">🇳🇷</span></td>
       <td><span class="n">🇳🇷️</span></td>
     </tr>
     <tr>
-      <td>NIUE</td>
+      <td>FLAG: NIUE</td>
       <td>U+1F1F3<br />U+1F1FA</td>
       <td><span class="n">🇳🇺︎</span></td>
       <td><span class="n">🇳🇺</span></td>
       <td><span class="n">🇳🇺️</span></td>
     </tr>
     <tr>
-      <td>NEW ZEALAND</td>
+      <td>FLAG: NEW ZEALAND</td>
       <td>U+1F1F3<br />U+1F1FF</td>
       <td><span class="n">🇳🇿︎</span></td>
       <td><span class="n">🇳🇿</span></td>
       <td><span class="n">🇳🇿️</span></td>
     </tr>
     <tr>
-      <td>OMAN</td>
+      <td>FLAG: OMAN</td>
       <td>U+1F1F4<br />U+1F1F2</td>
       <td><span class="n">🇴🇲︎</span></td>
       <td><span class="n">🇴🇲</span></td>
       <td><span class="n">🇴🇲️</span></td>
     </tr>
     <tr>
-      <td>PANAMA</td>
+      <td>FLAG: PANAMA</td>
       <td>U+1F1F5<br />U+1F1E6</td>
       <td><span class="n">🇵🇦︎</span></td>
       <td><span class="n">🇵🇦</span></td>
       <td><span class="n">🇵🇦️</span></td>
     </tr>
     <tr>
-      <td>PERU</td>
+      <td>FLAG: PERU</td>
       <td>U+1F1F5<br />U+1F1EA</td>
       <td><span class="n">🇵🇪︎</span></td>
       <td><span class="n">🇵🇪</span></td>
       <td><span class="n">🇵🇪️</span></td>
     </tr>
     <tr>
-      <td>FRENCH POLYNESIA</td>
+      <td>FLAG: FRENCH POLYNESIA</td>
       <td>U+1F1F5<br />U+1F1EB</td>
       <td><span class="n">🇵🇫︎</span></td>
       <td><span class="n">🇵🇫</span></td>
       <td><span class="n">🇵🇫️</span></td>
     </tr>
     <tr>
-      <td>PAPUA NEW GUINEA</td>
+      <td>FLAG: PAPUA NEW GUINEA</td>
       <td>U+1F1F5<br />U+1F1EC</td>
       <td><span class="n">🇵🇬︎</span></td>
       <td><span class="n">🇵🇬</span></td>
       <td><span class="n">🇵🇬️</span></td>
     </tr>
     <tr>
-      <td>PHILIPPINES</td>
+      <td>FLAG: PHILIPPINES</td>
       <td>U+1F1F5<br />U+1F1ED</td>
       <td><span class="n">🇵🇭︎</span></td>
       <td><span class="n">🇵🇭</span></td>
       <td><span class="n">🇵🇭️</span></td>
     </tr>
     <tr>
-      <td>PAKISTAN</td>
+      <td>FLAG: PAKISTAN</td>
       <td>U+1F1F5<br />U+1F1F0</td>
       <td><span class="n">🇵🇰︎</span></td>
       <td><span class="n">🇵🇰</span></td>
       <td><span class="n">🇵🇰️</span></td>
     </tr>
     <tr>
-      <td>POLAND</td>
+      <td>FLAG: POLAND</td>
       <td>U+1F1F5<br />U+1F1F1</td>
       <td><span class="n">🇵🇱︎</span></td>
       <td><span class="n">🇵🇱</span></td>
       <td><span class="n">🇵🇱️</span></td>
     </tr>
     <tr>
-      <td>ST. PIERRE &amp; MIQUELON</td>
+      <td>FLAG: ST. PIERRE &amp; MIQUELON</td>
       <td>U+1F1F5<br />U+1F1F2</td>
       <td><span class="n">🇵🇲︎</span></td>
       <td><span class="n">🇵🇲</span></td>
       <td><span class="n">🇵🇲️</span></td>
     </tr>
     <tr>
-      <td>PITCAIRN ISLANDS</td>
+      <td>FLAG: PITCAIRN ISLANDS</td>
       <td>U+1F1F5<br />U+1F1F3</td>
       <td><span class="n">🇵🇳︎</span></td>
       <td><span class="n">🇵🇳</span></td>
       <td><span class="n">🇵🇳️</span></td>
     </tr>
     <tr>
-      <td>PUERTO RICO</td>
+      <td>FLAG: PUERTO RICO</td>
       <td>U+1F1F5<br />U+1F1F7</td>
       <td><span class="n">🇵🇷︎</span></td>
       <td><span class="n">🇵🇷</span></td>
       <td><span class="n">🇵🇷️</span></td>
     </tr>
     <tr>
-      <td>PALESTINIAN TERRITORIES</td>
+      <td>FLAG: PALESTINIAN TERRITORIES</td>
       <td>U+1F1F5<br />U+1F1F8</td>
       <td><span class="n">🇵🇸︎</span></td>
       <td><span class="n">🇵🇸</span></td>
       <td><span class="n">🇵🇸️</span></td>
     </tr>
     <tr>
-      <td>PORTUGAL</td>
+      <td>FLAG: PORTUGAL</td>
       <td>U+1F1F5<br />U+1F1F9</td>
       <td><span class="n">🇵🇹︎</span></td>
       <td><span class="n">🇵🇹</span></td>
       <td><span class="n">🇵🇹️</span></td>
     </tr>
     <tr>
-      <td>PALAU</td>
+      <td>FLAG: PALAU</td>
       <td>U+1F1F5<br />U+1F1FC</td>
       <td><span class="n">🇵🇼︎</span></td>
       <td><span class="n">🇵🇼</span></td>
       <td><span class="n">🇵🇼️</span></td>
     </tr>
     <tr>
-      <td>PARAGUAY</td>
+      <td>FLAG: PARAGUAY</td>
       <td>U+1F1F5<br />U+1F1FE</td>
       <td><span class="n">🇵🇾︎</span></td>
       <td><span class="n">🇵🇾</span></td>
       <td><span class="n">🇵🇾️</span></td>
     </tr>
     <tr>
-      <td>QATAR</td>
+      <td>FLAG: QATAR</td>
       <td>U+1F1F6<br />U+1F1E6</td>
       <td><span class="n">🇶🇦︎</span></td>
       <td><span class="n">🇶🇦</span></td>
       <td><span class="n">🇶🇦️</span></td>
     </tr>
     <tr>
-      <td>RÉUNION</td>
+      <td>FLAG: RÉUNION</td>
       <td>U+1F1F7<br />U+1F1EA</td>
       <td><span class="n">🇷🇪︎</span></td>
       <td><span class="n">🇷🇪</span></td>
       <td><span class="n">🇷🇪️</span></td>
     </tr>
     <tr>
-      <td>ROMANIA</td>
+      <td>FLAG: ROMANIA</td>
       <td>U+1F1F7<br />U+1F1F4</td>
       <td><span class="n">🇷🇴︎</span></td>
       <td><span class="n">🇷🇴</span></td>
       <td><span class="n">🇷🇴️</span></td>
     </tr>
     <tr>
-      <td>SERBIA</td>
+      <td>FLAG: SERBIA</td>
       <td>U+1F1F7<br />U+1F1F8</td>
       <td><span class="n">🇷🇸︎</span></td>
       <td><span class="n">🇷🇸</span></td>
       <td><span class="n">🇷🇸️</span></td>
     </tr>
     <tr>
-      <td>RUSSIA</td>
+      <td>FLAG: RUSSIA</td>
       <td>U+1F1F7<br />U+1F1FA</td>
       <td><span class="n">🇷🇺︎</span></td>
       <td><span class="n">🇷🇺</span></td>
       <td><span class="n">🇷🇺️</span></td>
     </tr>
     <tr>
-      <td>RWANDA</td>
+      <td>FLAG: RWANDA</td>
       <td>U+1F1F7<br />U+1F1FC</td>
       <td><span class="n">🇷🇼︎</span></td>
       <td><span class="n">🇷🇼</span></td>
       <td><span class="n">🇷🇼️</span></td>
     </tr>
     <tr>
-      <td>SAUDI ARABIA</td>
+      <td>FLAG: SAUDI ARABIA</td>
       <td>U+1F1F8<br />U+1F1E6</td>
       <td><span class="n">🇸🇦︎</span></td>
       <td><span class="n">🇸🇦</span></td>
       <td><span class="n">🇸🇦️</span></td>
     </tr>
     <tr>
-      <td>SOLOMON ISLANDS</td>
+      <td>FLAG: SOLOMON ISLANDS</td>
       <td>U+1F1F8<br />U+1F1E7</td>
       <td><span class="n">🇸🇧︎</span></td>
       <td><span class="n">🇸🇧</span></td>
       <td><span class="n">🇸🇧️</span></td>
     </tr>
     <tr>
-      <td>SEYCHELLES</td>
+      <td>FLAG: SEYCHELLES</td>
       <td>U+1F1F8<br />U+1F1E8</td>
       <td><span class="n">🇸🇨︎</span></td>
       <td><span class="n">🇸🇨</span></td>
       <td><span class="n">🇸🇨️</span></td>
     </tr>
     <tr>
-      <td>SUDAN</td>
+      <td>FLAG: SUDAN</td>
       <td>U+1F1F8<br />U+1F1E9</td>
       <td><span class="n">🇸🇩︎</span></td>
       <td><span class="n">🇸🇩</span></td>
       <td><span class="n">🇸🇩️</span></td>
     </tr>
     <tr>
-      <td>SWEDEN</td>
+      <td>FLAG: SWEDEN</td>
       <td>U+1F1F8<br />U+1F1EA</td>
       <td><span class="n">🇸🇪︎</span></td>
       <td><span class="n">🇸🇪</span></td>
       <td><span class="n">🇸🇪️</span></td>
     </tr>
     <tr>
-      <td>SINGAPORE</td>
+      <td>FLAG: SINGAPORE</td>
       <td>U+1F1F8<br />U+1F1EC</td>
       <td><span class="n">🇸🇬︎</span></td>
       <td><span class="n">🇸🇬</span></td>
       <td><span class="n">🇸🇬️</span></td>
     </tr>
     <tr>
-      <td>ST. HELENA</td>
+      <td>FLAG: ST. HELENA</td>
       <td>U+1F1F8<br />U+1F1ED</td>
       <td><span class="n">🇸🇭︎</span></td>
       <td><span class="n">🇸🇭</span></td>
       <td><span class="n">🇸🇭️</span></td>
     </tr>
     <tr>
-      <td>SLOVENIA</td>
+      <td>FLAG: SLOVENIA</td>
       <td>U+1F1F8<br />U+1F1EE</td>
       <td><span class="n">🇸🇮︎</span></td>
       <td><span class="n">🇸🇮</span></td>
       <td><span class="n">🇸🇮️</span></td>
     </tr>
     <tr>
-      <td>SVALBARD &amp; JAN MAYEN</td>
+      <td>FLAG: SVALBARD &amp; JAN MAYEN</td>
       <td>U+1F1F8<br />U+1F1EF</td>
       <td><span class="n">🇸🇯︎</span></td>
       <td><span class="n">🇸🇯</span></td>
       <td><span class="n">🇸🇯️</span></td>
     </tr>
     <tr>
-      <td>SLOVAKIA</td>
+      <td>FLAG: SLOVAKIA</td>
       <td>U+1F1F8<br />U+1F1F0</td>
       <td><span class="n">🇸🇰︎</span></td>
       <td><span class="n">🇸🇰</span></td>
       <td><span class="n">🇸🇰️</span></td>
     </tr>
     <tr>
-      <td>SIERRA LEONE</td>
+      <td>FLAG: SIERRA LEONE</td>
       <td>U+1F1F8<br />U+1F1F1</td>
       <td><span class="n">🇸🇱︎</span></td>
       <td><span class="n">🇸🇱</span></td>
       <td><span class="n">🇸🇱️</span></td>
     </tr>
     <tr>
-      <td>SAN MARINO</td>
+      <td>FLAG: SAN MARINO</td>
       <td>U+1F1F8<br />U+1F1F2</td>
       <td><span class="n">🇸🇲︎</span></td>
       <td><span class="n">🇸🇲</span></td>
       <td><span class="n">🇸🇲️</span></td>
     </tr>
     <tr>
-      <td>SENEGAL</td>
+      <td>FLAG: SENEGAL</td>
       <td>U+1F1F8<br />U+1F1F3</td>
       <td><span class="n">🇸🇳︎</span></td>
       <td><span class="n">🇸🇳</span></td>
       <td><span class="n">🇸🇳️</span></td>
     </tr>
     <tr>
-      <td>SOMALIA</td>
+      <td>FLAG: SOMALIA</td>
       <td>U+1F1F8<br />U+1F1F4</td>
       <td><span class="n">🇸🇴︎</span></td>
       <td><span class="n">🇸🇴</span></td>
       <td><span class="n">🇸🇴️</span></td>
     </tr>
     <tr>
-      <td>SURINAME</td>
+      <td>FLAG: SURINAME</td>
       <td>U+1F1F8<br />U+1F1F7</td>
       <td><span class="n">🇸🇷︎</span></td>
       <td><span class="n">🇸🇷</span></td>
       <td><span class="n">🇸🇷️</span></td>
     </tr>
     <tr>
-      <td>SOUTH SUDAN</td>
+      <td>FLAG: SOUTH SUDAN</td>
       <td>U+1F1F8<br />U+1F1F8</td>
       <td><span class="n">🇸🇸︎</span></td>
       <td><span class="n">🇸🇸</span></td>
       <td><span class="n">🇸🇸️</span></td>
     </tr>
     <tr>
-      <td>SÃO TOMÉ &amp; PRÍNCIPE</td>
+      <td>FLAG: SÃO TOMÉ &amp; PRÍNCIPE</td>
       <td>U+1F1F8<br />U+1F1F9</td>
       <td><span class="n">🇸🇹︎</span></td>
       <td><span class="n">🇸🇹</span></td>
       <td><span class="n">🇸🇹️</span></td>
     </tr>
     <tr>
-      <td>EL SALVADOR</td>
+      <td>FLAG: EL SALVADOR</td>
       <td>U+1F1F8<br />U+1F1FB</td>
       <td><span class="n">🇸🇻︎</span></td>
       <td><span class="n">🇸🇻</span></td>
       <td><span class="n">🇸🇻️</span></td>
     </tr>
     <tr>
-      <td>SINT MAARTEN</td>
+      <td>FLAG: SINT MAARTEN</td>
       <td>U+1F1F8<br />U+1F1FD</td>
       <td><span class="n">🇸🇽︎</span></td>
       <td><span class="n">🇸🇽</span></td>
       <td><span class="n">🇸🇽️</span></td>
     </tr>
     <tr>
-      <td>SYRIA</td>
+      <td>FLAG: SYRIA</td>
       <td>U+1F1F8<br />U+1F1FE</td>
       <td><span class="n">🇸🇾︎</span></td>
       <td><span class="n">🇸🇾</span></td>
       <td><span class="n">🇸🇾️</span></td>
     </tr>
     <tr>
-      <td>SWAZILAND</td>
+      <td>FLAG: ESWATINI</td>
       <td>U+1F1F8<br />U+1F1FF</td>
       <td><span class="n">🇸🇿︎</span></td>
       <td><span class="n">🇸🇿</span></td>
       <td><span class="n">🇸🇿️</span></td>
     </tr>
     <tr>
-      <td>TRISTAN DA CUNHA</td>
+      <td>FLAG: TRISTAN DA CUNHA</td>
       <td>U+1F1F9<br />U+1F1E6</td>
       <td><span class="n">🇹🇦︎</span></td>
       <td><span class="n">🇹🇦</span></td>
       <td><span class="n">🇹🇦️</span></td>
     </tr>
     <tr>
-      <td>TURKS &amp; CAICOS ISLANDS</td>
+      <td>FLAG: TURKS &amp; CAICOS ISLANDS</td>
       <td>U+1F1F9<br />U+1F1E8</td>
       <td><span class="n">🇹🇨︎</span></td>
       <td><span class="n">🇹🇨</span></td>
       <td><span class="n">🇹🇨️</span></td>
     </tr>
     <tr>
-      <td>CHAD</td>
+      <td>FLAG: CHAD</td>
       <td>U+1F1F9<br />U+1F1E9</td>
       <td><span class="n">🇹🇩︎</span></td>
       <td><span class="n">🇹🇩</span></td>
       <td><span class="n">🇹🇩️</span></td>
     </tr>
     <tr>
-      <td>FRENCH SOUTHERN TERRITORIES</td>
+      <td>FLAG: FRENCH SOUTHERN TERRITORIES</td>
       <td>U+1F1F9<br />U+1F1EB</td>
       <td><span class="n">🇹🇫︎</span></td>
       <td><span class="n">🇹🇫</span></td>
       <td><span class="n">🇹🇫️</span></td>
     </tr>
     <tr>
-      <td>TOGO</td>
+      <td>FLAG: TOGO</td>
       <td>U+1F1F9<br />U+1F1EC</td>
       <td><span class="n">🇹🇬︎</span></td>
       <td><span class="n">🇹🇬</span></td>
       <td><span class="n">🇹🇬️</span></td>
     </tr>
     <tr>
-      <td>THAILAND</td>
+      <td>FLAG: THAILAND</td>
       <td>U+1F1F9<br />U+1F1ED</td>
       <td><span class="n">🇹🇭︎</span></td>
       <td><span class="n">🇹🇭</span></td>
       <td><span class="n">🇹🇭️</span></td>
     </tr>
     <tr>
-      <td>TAJIKISTAN</td>
+      <td>FLAG: TAJIKISTAN</td>
       <td>U+1F1F9<br />U+1F1EF</td>
       <td><span class="n">🇹🇯︎</span></td>
       <td><span class="n">🇹🇯</span></td>
       <td><span class="n">🇹🇯️</span></td>
     </tr>
     <tr>
-      <td>TOKELAU</td>
+      <td>FLAG: TOKELAU</td>
       <td>U+1F1F9<br />U+1F1F0</td>
       <td><span class="n">🇹🇰︎</span></td>
       <td><span class="n">🇹🇰</span></td>
       <td><span class="n">🇹🇰️</span></td>
     </tr>
     <tr>
-      <td>TIMOR-LESTE</td>
+      <td>FLAG: TIMOR-LESTE</td>
       <td>U+1F1F9<br />U+1F1F1</td>
       <td><span class="n">🇹🇱︎</span></td>
       <td><span class="n">🇹🇱</span></td>
       <td><span class="n">🇹🇱️</span></td>
     </tr>
     <tr>
-      <td>TURKMENISTAN</td>
+      <td>FLAG: TURKMENISTAN</td>
       <td>U+1F1F9<br />U+1F1F2</td>
       <td><span class="n">🇹🇲︎</span></td>
       <td><span class="n">🇹🇲</span></td>
       <td><span class="n">🇹🇲️</span></td>
     </tr>
     <tr>
-      <td>TUNISIA</td>
+      <td>FLAG: TUNISIA</td>
       <td>U+1F1F9<br />U+1F1F3</td>
       <td><span class="n">🇹🇳︎</span></td>
       <td><span class="n">🇹🇳</span></td>
       <td><span class="n">🇹🇳️</span></td>
     </tr>
     <tr>
-      <td>TONGA</td>
+      <td>FLAG: TONGA</td>
       <td>U+1F1F9<br />U+1F1F4</td>
       <td><span class="n">🇹🇴︎</span></td>
       <td><span class="n">🇹🇴</span></td>
       <td><span class="n">🇹🇴️</span></td>
     </tr>
     <tr>
-      <td>TURKEY</td>
+      <td>FLAG: TURKEY</td>
       <td>U+1F1F9<br />U+1F1F7</td>
       <td><span class="n">🇹🇷︎</span></td>
       <td><span class="n">🇹🇷</span></td>
       <td><span class="n">🇹🇷️</span></td>
     </tr>
     <tr>
-      <td>TRINIDAD &amp; TOBAGO</td>
+      <td>FLAG: TRINIDAD &amp; TOBAGO</td>
       <td>U+1F1F9<br />U+1F1F9</td>
       <td><span class="n">🇹🇹︎</span></td>
       <td><span class="n">🇹🇹</span></td>
       <td><span class="n">🇹🇹️</span></td>
     </tr>
     <tr>
-      <td>TUVALU</td>
+      <td>FLAG: TUVALU</td>
       <td>U+1F1F9<br />U+1F1FB</td>
       <td><span class="n">🇹🇻︎</span></td>
       <td><span class="n">🇹🇻</span></td>
       <td><span class="n">🇹🇻️</span></td>
     </tr>
     <tr>
-      <td>TAIWAN</td>
+      <td>FLAG: TAIWAN</td>
       <td>U+1F1F9<br />U+1F1FC</td>
       <td><span class="n">🇹🇼︎</span></td>
       <td><span class="n">🇹🇼</span></td>
       <td><span class="n">🇹🇼️</span></td>
     </tr>
     <tr>
-      <td>TANZANIA</td>
+      <td>FLAG: TANZANIA</td>
       <td>U+1F1F9<br />U+1F1FF</td>
       <td><span class="n">🇹🇿︎</span></td>
       <td><span class="n">🇹🇿</span></td>
       <td><span class="n">🇹🇿️</span></td>
     </tr>
     <tr>
-      <td>UKRAINE</td>
+      <td>FLAG: UKRAINE</td>
       <td>U+1F1FA<br />U+1F1E6</td>
       <td><span class="n">🇺🇦︎</span></td>
       <td><span class="n">🇺🇦</span></td>
       <td><span class="n">🇺🇦️</span></td>
     </tr>
     <tr>
-      <td>UGANDA</td>
+      <td>FLAG: UGANDA</td>
       <td>U+1F1FA<br />U+1F1EC</td>
       <td><span class="n">🇺🇬︎</span></td>
       <td><span class="n">🇺🇬</span></td>
       <td><span class="n">🇺🇬️</span></td>
     </tr>
     <tr>
-      <td>U.S. OUTLYING ISLANDS</td>
+      <td>FLAG: U.S. OUTLYING ISLANDS</td>
       <td>U+1F1FA<br />U+1F1F2</td>
       <td><span class="n">🇺🇲︎</span></td>
       <td><span class="n">🇺🇲</span></td>
       <td><span class="n">🇺🇲️</span></td>
     </tr>
     <tr>
-      <td>UNITED NATIONS</td>
+      <td>FLAG: UNITED NATIONS</td>
       <td>U+1F1FA<br />U+1F1F3</td>
       <td><span class="n">🇺🇳︎</span></td>
       <td><span class="n">🇺🇳</span></td>
       <td><span class="n">🇺🇳️</span></td>
     </tr>
     <tr>
-      <td>UNITED STATES</td>
+      <td>FLAG: UNITED STATES</td>
       <td>U+1F1FA<br />U+1F1F8</td>
       <td><span class="n">🇺🇸︎</span></td>
       <td><span class="n">🇺🇸</span></td>
       <td><span class="n">🇺🇸️</span></td>
     </tr>
     <tr>
-      <td>URUGUAY</td>
+      <td>FLAG: URUGUAY</td>
       <td>U+1F1FA<br />U+1F1FE</td>
       <td><span class="n">🇺🇾︎</span></td>
       <td><span class="n">🇺🇾</span></td>
       <td><span class="n">🇺🇾️</span></td>
     </tr>
     <tr>
-      <td>UZBEKISTAN</td>
+      <td>FLAG: UZBEKISTAN</td>
       <td>U+1F1FA<br />U+1F1FF</td>
       <td><span class="n">🇺🇿︎</span></td>
       <td><span class="n">🇺🇿</span></td>
       <td><span class="n">🇺🇿️</span></td>
     </tr>
     <tr>
-      <td>VATICAN CITY</td>
+      <td>FLAG: VATICAN CITY</td>
       <td>U+1F1FB<br />U+1F1E6</td>
       <td><span class="n">🇻🇦︎</span></td>
       <td><span class="n">🇻🇦</span></td>
       <td><span class="n">🇻🇦️</span></td>
     </tr>
     <tr>
-      <td>ST. VINCENT &amp; GRENADINES</td>
+      <td>FLAG: ST. VINCENT &amp; GRENADINES</td>
       <td>U+1F1FB<br />U+1F1E8</td>
       <td><span class="n">🇻🇨︎</span></td>
       <td><span class="n">🇻🇨</span></td>
       <td><span class="n">🇻🇨️</span></td>
     </tr>
     <tr>
-      <td>VENEZUELA</td>
+      <td>FLAG: VENEZUELA</td>
       <td>U+1F1FB<br />U+1F1EA</td>
       <td><span class="n">🇻🇪︎</span></td>
       <td><span class="n">🇻🇪</span></td>
       <td><span class="n">🇻🇪️</span></td>
     </tr>
     <tr>
-      <td>BRITISH VIRGIN ISLANDS</td>
+      <td>FLAG: BRITISH VIRGIN ISLANDS</td>
       <td>U+1F1FB<br />U+1F1EC</td>
       <td><span class="n">🇻🇬︎</span></td>
       <td><span class="n">🇻🇬</span></td>
       <td><span class="n">🇻🇬️</span></td>
     </tr>
     <tr>
-      <td>U.S. VIRGIN ISLANDS</td>
+      <td>FLAG: U.S. VIRGIN ISLANDS</td>
       <td>U+1F1FB<br />U+1F1EE</td>
       <td><span class="n">🇻🇮︎</span></td>
       <td><span class="n">🇻🇮</span></td>
       <td><span class="n">🇻🇮️</span></td>
     </tr>
     <tr>
-      <td>VIETNAM</td>
+      <td>FLAG: VIETNAM</td>
       <td>U+1F1FB<br />U+1F1F3</td>
       <td><span class="n">🇻🇳︎</span></td>
       <td><span class="n">🇻🇳</span></td>
       <td><span class="n">🇻🇳️</span></td>
     </tr>
     <tr>
-      <td>VANUATU</td>
+      <td>FLAG: VANUATU</td>
       <td>U+1F1FB<br />U+1F1FA</td>
       <td><span class="n">🇻🇺︎</span></td>
       <td><span class="n">🇻🇺</span></td>
       <td><span class="n">🇻🇺️</span></td>
     </tr>
     <tr>
-      <td>WALLIS &amp; FUTUNA</td>
+      <td>FLAG: WALLIS &amp; FUTUNA</td>
       <td>U+1F1FC<br />U+1F1EB</td>
       <td><span class="n">🇼🇫︎</span></td>
       <td><span class="n">🇼🇫</span></td>
       <td><span class="n">🇼🇫️</span></td>
     </tr>
     <tr>
-      <td>SAMOA</td>
+      <td>FLAG: SAMOA</td>
       <td>U+1F1FC<br />U+1F1F8</td>
       <td><span class="n">🇼🇸︎</span></td>
       <td><span class="n">🇼🇸</span></td>
       <td><span class="n">🇼🇸️</span></td>
     </tr>
     <tr>
-      <td>KOSOVO</td>
+      <td>FLAG: KOSOVO</td>
       <td>U+1F1FD<br />U+1F1F0</td>
       <td><span class="n">🇽🇰︎</span></td>
       <td><span class="n">🇽🇰</span></td>
       <td><span class="n">🇽🇰️</span></td>
     </tr>
     <tr>
-      <td>YEMEN</td>
+      <td>FLAG: YEMEN</td>
       <td>U+1F1FE<br />U+1F1EA</td>
       <td><span class="n">🇾🇪︎</span></td>
       <td><span class="n">🇾🇪</span></td>
       <td><span class="n">🇾🇪️</span></td>
     </tr>
     <tr>
-      <td>MAYOTTE</td>
+      <td>FLAG: MAYOTTE</td>
       <td>U+1F1FE<br />U+1F1F9</td>
       <td><span class="n">🇾🇹︎</span></td>
       <td><span class="n">🇾🇹</span></td>
       <td><span class="n">🇾🇹️</span></td>
     </tr>
     <tr>
-      <td>SOUTH AFRICA</td>
+      <td>FLAG: SOUTH AFRICA</td>
       <td>U+1F1FF<br />U+1F1E6</td>
       <td><span class="n">🇿🇦︎</span></td>
       <td><span class="n">🇿🇦</span></td>
       <td><span class="n">🇿🇦️</span></td>
     </tr>
     <tr>
-      <td>ZAMBIA</td>
+      <td>FLAG: ZAMBIA</td>
       <td>U+1F1FF<br />U+1F1F2</td>
       <td><span class="n">🇿🇲︎</span></td>
       <td><span class="n">🇿🇲</span></td>
       <td><span class="n">🇿🇲️</span></td>
     </tr>
     <tr>
-      <td>ZIMBABWE</td>
+      <td>FLAG: ZIMBABWE</td>
       <td>U+1F1FF<br />U+1F1FC</td>
       <td><span class="n">🇿🇼︎</span></td>
       <td><span class="n">🇿🇼</span></td>
       <td><span class="n">🇿🇼️</span></td>
     </tr>
     <tr>
-      <td>ENGLAND</td>
+      <td>FLAG: ENGLAND</td>
       <td>U+1F3F4<br />U+E0067<br />U+E0062<br />U+E0065<br />U+E006E<br />U+E0067<br />U+E007F</td>
       <td><span class="n">🏴󠁧󠁢󠁥󠁮󠁧󠁿︎</span></td>
       <td><span class="n">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span></td>
       <td><span class="n">🏴󠁧󠁢󠁥󠁮󠁧󠁿️</span></td>
     </tr>
     <tr>
-      <td>SCOTLAND</td>
+      <td>FLAG: SCOTLAND</td>
       <td>U+1F3F4<br />U+E0067<br />U+E0062<br />U+E0073<br />U+E0063<br />U+E0074<br />U+E007F</td>
       <td><span class="n">🏴󠁧󠁢󠁳󠁣󠁴󠁿︎</span></td>
       <td><span class="n">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span></td>
       <td><span class="n">🏴󠁧󠁢󠁳󠁣󠁴󠁿️</span></td>
     </tr>
     <tr>
-      <td>WALES</td>
+      <td>FLAG: WALES</td>
       <td>U+1F3F4<br />U+E0067<br />U+E0062<br />U+E0077<br />U+E006C<br />U+E0073<br />U+E007F</td>
       <td><span class="n">🏴󠁧󠁢󠁷󠁬󠁳󠁿︎</span></td>
       <td><span class="n">🏴󠁧󠁢󠁷󠁬󠁳󠁿</span></td>
@@ -21205,7 +21205,7 @@ document.addEventListener('DOMContentLoaded', registerScroll)
 
       <footer class="not-index">
         <a href="/" class="action">character.construction</a> is curated by <a href="https://twitter.com/JanLelis">@JanLelis</a><br/>
-        Unicode 11.0 / Emoji 12.0<br/>
+        Unicode 12.0 / Emoji 12.0<br/>
         <a href="https://janlelis.com/data-protection">Privacy Policy</a>
           <br />
           <br />
